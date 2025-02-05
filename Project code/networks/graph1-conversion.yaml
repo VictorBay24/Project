@@ -1,0 +1,76 @@
+# Converted graph paths
+
+(a,b):
+  source: a
+  destination: b
+  routes: [[a,b],[a,e,b],[a,e,d,c,b]]
+
+(a,c):
+  source: a
+  destination: c
+  routes: [[a,b,c],[a,e,b,c],[a,e,d,c],[a,f,d,c]]
+
+(a,d):
+  source: a
+  destination: d
+  routes: [[a,f,d],[a,e,d],[a,b,c,d],[a,e,b,c,d]]
+
+(a,e):
+  source: a
+  destination: e
+  routes: [[a,e],[a,b,e],[a,f,d,e],[a,b,c,d,e]]
+
+(a,f):
+  source: a
+  destination: f
+  routes: [[a,f],[a,e,d,f],[a,b,c,d,f],[a,b,e,d,f]]
+
+(b,c):
+  source: b
+  destination: c
+  routes: [[b,c],[b,e,d,c],[b,a,e,d,c]]
+
+(b,d):
+  source: b
+  destination: d
+  routes: [[b,c,d],[b,e,d],[b,a,e,d],[b,a,f,d]]
+
+(b,e):
+  source: b
+  destination: e
+  routes: [[b,e],[b,a,e],[b,c,d,e]]
+
+(b,f):
+  source: b
+  destination: f
+  routes: [[b,a,f],[b,e,d,f],[b,c,d,f]]
+
+(c,d):
+  source: c
+  destination: d
+  routes: [[c,d],[c,b,e,d],[c,b,a,e,d]]
+
+(c,e):
+  source: c
+  destination: e
+  routes: [[c,b,e],[c,d,e],[c,b,a,e]]
+
+(c,f):
+  source: c
+  destination: f
+  routes: [[c,d,f],[c,b,a,f]]
+
+(d,e):
+  source: d
+  destination: e
+  routes: [[d,e],[d,c,b,e],[d,f,a,e],[d,c,b,a,e]]
+
+(d,f):
+  source: d
+  destination: f
+  routes: [[d,f],[d,e,a,f]]
+
+(e,f):
+  source: e
+  destination: f
+  routes: [[e,a,f],[e,d,f],[e,b,c,d,f],[e,a,b,c,d,f]]

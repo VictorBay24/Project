@@ -1,0 +1,101 @@
+# graph 3 conversion
+
+(a,b):
+  source: a
+  destination: b
+  routes: [[a, b], [a, e, b]]
+
+(a,c):
+  source: a
+  destination: c
+  routes: [[a, b, c], [a, d, c]]
+
+(a,d):
+  source: a
+  destination: d
+  routes: [[a, e, d], [a, d]]
+
+(a,e):
+  source: a
+  destination: e
+  routes: [[a, b, e], [a, e]]
+
+(b,c):
+  source: b
+  destination: c
+  routes: [[b, c], [b, a, d, c],[b, e, d, c]]
+
+(b,d):
+  source: b
+  destination: d
+  routes: [[b, e, d], [b, a, d], [b, c, d]]
+
+(b,e):
+  source: b
+  destination: e
+  routes: [[b, e], [b, a, e]]
+
+(c,d):
+  source: c
+  destination: d
+  routes: [[c, d], [c, b, a, d], [c, b, e, d]]
+
+(c,e):
+  source: c
+  destination: e
+  routes: [[c, b, e], [c, d, e]]
+
+(d,e):
+  source: d
+  destination: e
+  routes: [[d, a, e], [d, e]]
+
+(b,a):
+  source: b
+  destination: a
+  routes: [[b, a], [b, e, a]]
+
+(c,a):
+  source: c
+  destination: a
+  routes: [[c, b, a], [c, d, a]]
+
+(d,a):
+  source: d
+  destination: a
+  routes: [[d, e, a], [d, a]]
+
+(e,a):
+  source: e
+  destination: a
+  routes: [[e, a], [e, b, a]]
+
+(c,b):
+  source: c
+  destination: b
+  routes: [[c, b], [c, d, a, b], [c, d, e, b]]
+
+(d,b):
+  source: d
+  destination: b
+  routes: [[d, c, b], [d, a, b], [d, e, b]]
+
+(e,b):
+  source: e
+  destination: b
+  routes: [[e, b], [e, a, b]]
+
+(d,c):
+  source: d
+  destination: c
+  routes: [[d, c], [d, e, b, c], [d, a, b, c]]
+
+(e,c):
+  source: e
+  destination: c
+  routes: [[e, d, c], [e, b, c]]
+
+(e,d):
+  source: e
+  destination: d
+  routes: [[e, a, d], [e, d]]

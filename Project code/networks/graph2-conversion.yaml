@@ -1,0 +1,31 @@
+# graph2 conversion
+
+(a,b):
+  source: a
+  destination: b
+  routes: [[a, b], [a, d, c, b]]
+
+(a,c):
+  source: a
+  destination: c
+  routes: [[a, b, c], [a, d, c]]
+
+(a,d):
+  source: a
+  destination: d
+  routes: [[a, b, c, d], [a, d]]
+
+(b,c):
+  source: b
+  destination: c
+  routes: [[b, c], [b, a, d, c]]
+
+(b,d):
+  source: b
+  destination: d
+  routes: [[b, c, d], [b, a, d]]
+
+(c,d):
+  source: c
+  destination: d
+  routes: [[c, d], [c, b, a, d]]
