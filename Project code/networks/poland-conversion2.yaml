@@ -1,0 +1,1712 @@
+(Gdansk,Bydgoszcz):
+  source: Gdansk
+  destination: Bydgoszcz
+  routes: [
+    [Gdansk, Kolobrzeg, Bydgoszcz],
+    [Gdansk, Warsaw, Bydgoszcz],
+    [Gdansk, Kolobrzeg, Szczecin, Poznan, Bydgoszcz],
+    [Gdansk, Bialystok, Warsaw, Bydgoszcz],
+    [Gdansk, Warsaw, Krakow, Katowice, Wroclaw, Poznan, Bydgoszcz],
+    [Gdansk, Kolobrzeg, Szczecin, Poznan, Wroclaw, Katowice, Krakow, Warsaw, Bydgoszcz],
+    [Gdansk, Bialystok, Rzeszow, Krakow, Warsaw, Bydgoszcz]]
+
+(Gdansk,Kolobrzeg):
+  source: Gdansk
+  destination: Kolobrzeg
+  routes: [
+    [Gdansk, Kolobrzeg],
+    [Gdansk, Warsaw, Bydgoszcz, Kolobrzeg],
+    [Gdansk, Bialystok, Warsaw, Bydgoszcz, Kolobrzeg],
+    [Gdansk, Warsaw, Krakow, Katowice, Wroclaw, Poznan, Bydgoszcz, Kolobrzeg],
+    [Gdansk, Warsaw, Bydgoszcz, Poznan, Szczecin, Kolobrzeg],
+    [Gdansk, Bialystok, Rzeszow, Krakow, Warsaw, Bydgoszcz, Kolobrzeg],
+    [Gdansk, Bialystok, Warsaw, Krakow, Katowice, Wroclaw, Poznan, Bydgoszcz, Kolobrzeg]]
+
+(Gdansk,Katowice):
+  source: Gdansk
+  destination: Katowice
+  routes: [
+    [Gdansk, Bialystok, Rzeszow, Krakow, Katowice],
+    [Gdansk, Warsaw, Krakow, Katowice],
+    [Gdansk, Bialystok, Warsaw, Krakow, Katowice],
+    [Gdansk, Bialystok, Rzeszow, Krakow, Warsaw, Lodz, Katowice],
+    [Gdansk, Kolobrzeg, Bydgoszcz, Warsaw, Krakow, Katowice],
+    [Gdansk, Warsaw, Lodz, Katowice],
+    [Gdansk, Bialystok, Warsaw, Lodz, Katowice]
+  ]
+
+(Gdansk,Krakow):
+  source: Gdansk
+  destination: Krakow
+  routes: [
+    [Gdansk, Bialystok, Rzeszow, Krakow],
+    [Gdansk, Warsaw, Krakow],
+    [Gdansk, Bialystok, Warsaw, Krakow],
+    [Gdansk, Kolobrzeg, Bydgoszcz, Warsaw, Krakow],
+    [Gdansk, Warsaw, Lodz, Katowice, Krakow],
+    [Gdansk, Bialystok, Warsaw, Lodz, Katowice, Krakow],
+    [Gdansk, Kolobrzeg, Szczecin, Poznan, Bydgoszcz, Warsaw, Krakow]
+  ]
+
+(Gdansk,Bialystok):
+  source: Gdansk
+  destination: Bialystok
+  routes: [
+    [Gdansk, Bialystok],
+    [Gdansk, Warsaw, Bialystok],
+    [Gdansk, Kolobrzeg, Bydgoszcz, Warsaw, Bialystok],
+    [Gdansk, Warsaw, Krakow, Rzeszow, Bialystok],
+    [Gdansk, Kolobrzeg, Szczecin, Poznan, Bydgoszcz, Warsaw, Bialystok],
+    [Gdansk, Kolobrzeg, Bydgoszcz, Poznan, Wroclaw, Katowice, Krakow, Rzeszow, Bialystok],
+    [Gdansk, Kolobrzeg, Bydgoszcz, Warsaw, Krakow, Rzeszow, Bialystok]
+  ]
+
+(Gdansk,Lodz):
+  source: Gdansk
+  destination: Lodz
+  routes: [
+    [Gdansk, Bialystok, Rzeszow, Krakow, Katowice, Lodz],
+    [Gdansk, Warsaw, Lodz],
+    [Gdansk, Bialystok, Warsaw, Lodz],
+    [Gdansk, Bialystok, Rzeszow, Krakow, Warsaw, Lodz],
+    [Gdansk, Bialystok, Rzeszow, Krakow, Katowice, Wroclaw, Lodz],
+    [Gdansk, Kolobrzeg, Bydgoszcz, Warsaw, Lodz],
+    [Gdansk, Warsaw, Krakow, Katowice, Lodz]
+  ]
+
+(Gdansk,Poznan):
+  source: Gdansk
+  destination: Poznan
+  routes: [
+    [Gdansk, Kolobrzeg, Bydgoszcz, Poznan],
+    [Gdansk, Warsaw, Bydgoszcz, Poznan],
+    [Gdansk, Kolobrzeg, Szczecin, Poznan],
+    [Gdansk, Kolobrzeg, Bydgoszcz, Warsaw, Krakow, Katowice, Wroclaw, Poznan],
+    [Gdansk, Bialystok, Warsaw, Bydgoszcz, Poznan],
+    [Gdansk, Warsaw, Krakow, Katowice, Wroclaw, Poznan],
+    [Gdansk, Warsaw, Bydgoszcz, Kolobrzeg, Szczecin, Poznan]
+  ]
+
+(Gdansk,Rzeszow):
+  source: Gdansk
+  destination: Rzeszow
+  routes: [
+    [Gdansk, Bialystok, Rzeszow],
+    [Gdansk, Warsaw, Krakow, Rzeszow],
+    [Gdansk, Bialystok, Warsaw, Krakow, Rzeszow],
+    [Gdansk, Kolobrzeg, Bydgoszcz, Warsaw, Krakow, Rzeszow],
+    [Gdansk, Warsaw, Bialystok, Rzeszow],
+    [Gdansk, Bialystok, Warsaw, Lodz, Katowice, Krakow, Rzeszow],
+    [Gdansk, Kolobrzeg, Szczecin, Poznan, Bydgoszcz, Warsaw, Krakow, Rzeszow]
+  ]
+
+(Gdansk,Szczecin):
+  source: Gdansk
+  destination: Szczecin
+  routes: [
+    [Gdansk, Kolobrzeg, Szczecin],
+    [Gdansk, Warsaw, Bydgoszcz, Kolobrzeg, Szczecin],
+    [Gdansk, Kolobrzeg, Bydgoszcz, Poznan, Szczecin],
+    [Gdansk, Bialystok, Warsaw, Bydgoszcz, Kolobrzeg, Szczecin],
+    [Gdansk, Warsaw, Krakow, Katowice, Wroclaw, Poznan, Szczecin],
+    [Gdansk, Warsaw, Bydgoszcz, Poznan, Szczecin],
+    [Gdansk, Kolobrzeg, Bydgoszcz, Warsaw, Krakow, Katowice, Wroclaw, Poznan, Szczecin]
+  ]
+
+(Gdansk,Warsaw):
+  source: Gdansk
+  destination: Warsaw
+  routes: [
+    [Gdansk, Warsaw],
+    [Gdansk, Kolobrzeg, Bydgoszcz, Warsaw],
+    [Gdansk, Bialystok, Warsaw],
+    [Gdansk, Kolobrzeg, Szczecin, Poznan, Bydgoszcz, Warsaw],
+    [Gdansk, Kolobrzeg, Bydgoszcz, Poznan, Wroclaw, Katowice, Krakow, Warsaw],
+    [Gdansk, Bialystok, Rzeszow, Krakow, Warsaw],
+    [Gdansk, Kolobrzeg, Szczecin, Poznan, Wroclaw, Katowice, Krakow, Warsaw]
+  ]
+
+(Gdansk,Wroclaw):
+  source: Gdansk
+  destination: Wroclaw
+  routes: [
+    [Gdansk, Kolobrzeg, Bydgoszcz, Poznan, Wroclaw],
+    [Gdansk, Bialystok, Rzeszow, Krakow, Katowice, Wroclaw],
+    [Gdansk, Kolobrzeg, Szczecin, Poznan, Wroclaw],
+    [Gdansk, Kolobrzeg, Bydgoszcz, Warsaw, Krakow, Katowice, Wroclaw],
+    [Gdansk, Warsaw, Krakow, Katowice, Wroclaw],
+    [Gdansk, Bialystok, Warsaw, Krakow, Katowice, Wroclaw],
+    [Gdansk, Bialystok, Rzeszow, Krakow, Warsaw, Lodz, Wroclaw]
+  ]
+
+(Bydgoszcz,Kolobrzeg):
+  source: Bydgoszcz
+  destination: Kolobrzeg
+  routes: [
+    [Bydgoszcz, Kolobrzeg],
+    [Bydgoszcz, Poznan, Szczecin, Kolobrzeg],
+    [Bydgoszcz, Warsaw, Gdansk, Kolobrzeg],
+    [Bydgoszcz, Poznan, Wroclaw, Katowice, Krakow, Rzeszow, Bialystok, Gdansk, Kolobrzeg],
+    [Bydgoszcz, Warsaw, Bialystok, Gdansk, Kolobrzeg],
+    [Bydgoszcz, Warsaw, Gdansk, Bialystok, Rzeszow, Krakow, Katowice, Wroclaw, Poznan, Szczecin, Kolobrzeg],
+    [Bydgoszcz, Poznan, Wroclaw, Lodz, Katowice, Krakow, Rzeszow, Bialystok, Gdansk, Kolobrzeg]
+  ]
+
+(Bydgoszcz,Katowice):
+  source: Bydgoszcz
+  destination: Katowice
+  routes: [
+    [Bydgoszcz, Kolobrzeg, Gdansk, Bialystok, Rzeszow, Krakow, Katowice],
+    [Bydgoszcz, Poznan, Szczecin, Kolobrzeg, Gdansk, Bialystok, Rzeszow, Krakow, Katowice],
+    [Bydgoszcz, Kolobrzeg, Szczecin, Poznan, Wroclaw, Katowice],
+    [Bydgoszcz, Kolobrzeg, Gdansk, Warsaw, Krakow, Katowice],
+    [Bydgoszcz, Kolobrzeg, Gdansk, Bialystok, Warsaw, Krakow, Katowice],
+    [Bydgoszcz, Kolobrzeg, Gdansk, Bialystok, Rzeszow, Krakow, Warsaw, Lodz, Katowice],
+    [Bydgoszcz, Warsaw, Krakow, Katowice]
+  ]
+
+(Bydgoszcz,Krakow):
+  source: Bydgoszcz
+  destination: Krakow
+  routes: [
+    [Bydgoszcz, Kolobrzeg, Gdansk, Bialystok, Rzeszow, Krakow],
+    [Bydgoszcz, Poznan, Szczecin, Kolobrzeg, Gdansk, Bialystok, Rzeszow, Krakow],
+    [Bydgoszcz, Kolobrzeg, Szczecin, Poznan, Wroclaw, Katowice, Krakow],
+    [Bydgoszcz, Kolobrzeg, Gdansk, Warsaw, Krakow],
+    [Bydgoszcz, Kolobrzeg, Gdansk, Bialystok, Warsaw, Krakow],
+    [Bydgoszcz, Warsaw, Krakow],
+    [Bydgoszcz, Poznan, Wroclaw, Katowice, Krakow]
+  ]
+
+(Bydgoszcz,Bialystok):
+  source: Bydgoszcz
+  destination: Bialystok
+  routes: [
+    [Bydgoszcz, Kolobrzeg, Gdansk, Bialystok],
+    [Bydgoszcz, Poznan, Szczecin, Kolobrzeg, Gdansk, Bialystok],
+    [Bydgoszcz, Kolobrzeg, Szczecin, Poznan, Wroclaw, Katowice, Krakow, Rzeszow, Bialystok],
+    [Bydgoszcz, Kolobrzeg, Gdansk, Warsaw, Bialystok],
+    [Bydgoszcz, Warsaw, Bialystok],
+    [Bydgoszcz, Poznan, Wroclaw, Katowice, Krakow, Rzeszow, Bialystok],
+    [Bydgoszcz, Poznan, Szczecin, Kolobrzeg, Gdansk, Warsaw, Bialystok]
+  ]
+
+(Bydgoszcz,Lodz):
+  source: Bydgoszcz
+  destination: Lodz
+  routes: [
+    [Bydgoszcz, Kolobrzeg, Gdansk, Bialystok, Rzeszow, Krakow, Katowice, Lodz],
+    [Bydgoszcz, Poznan, Szczecin, Kolobrzeg, Gdansk, Bialystok, Rzeszow, Krakow, Katowice, Lodz],
+    [Bydgoszcz, Kolobrzeg, Szczecin, Poznan, Wroclaw, Lodz],
+    [Bydgoszcz, Kolobrzeg, Gdansk, Warsaw, Lodz],
+    [Bydgoszcz, Kolobrzeg, Gdansk, Bialystok, Warsaw, Lodz],
+    [Bydgoszcz, Kolobrzeg, Gdansk, Bialystok, Rzeszow, Krakow, Warsaw, Lodz],
+    [Bydgoszcz, Kolobrzeg, Gdansk, Bialystok, Rzeszow, Krakow, Katowice, Wroclaw, Lodz]
+  ]
+
+(Bydgoszcz,Poznan):
+  source: Bydgoszcz
+  destination: Poznan
+  routes: [
+    [Bydgoszcz, Poznan],
+    [Bydgoszcz, Kolobrzeg, Szczecin, Poznan],
+    [Bydgoszcz, Warsaw, Gdansk, Kolobrzeg, Szczecin, Poznan],
+    [Bydgoszcz, Kolobrzeg, Gdansk, Bialystok, Rzeszow, Krakow, Katowice, Wroclaw, Poznan],
+    [Bydgoszcz, Warsaw, Bialystok, Gdansk, Kolobrzeg, Szczecin, Poznan],
+    [Bydgoszcz, Warsaw, Gdansk, Bialystok, Rzeszow, Krakow, Katowice, Wroclaw, Poznan],
+    [Bydgoszcz, Kolobrzeg, Gdansk, Warsaw, Krakow, Katowice, Wroclaw, Poznan]
+  ]
+
+(Bydgoszcz,Rzeszow):
+  source: Bydgoszcz
+  destination: Rzeszow
+  routes: [
+    [Bydgoszcz, Kolobrzeg, Gdansk, Bialystok, Rzeszow],
+    [Bydgoszcz, Poznan, Szczecin, Kolobrzeg, Gdansk, Bialystok, Rzeszow],
+    [Bydgoszcz, Kolobrzeg, Szczecin, Poznan, Wroclaw, Katowice, Krakow, Rzeszow],
+    [Bydgoszcz, Kolobrzeg, Gdansk, Warsaw, Krakow, Rzeszow],
+    [Bydgoszcz, Kolobrzeg, Gdansk, Bialystok, Warsaw, Krakow, Rzeszow],
+    [Bydgoszcz, Warsaw, Krakow, Rzeszow],
+    [Bydgoszcz, Poznan, Wroclaw, Katowice, Krakow, Rzeszow]
+  ]
+
+(Bydgoszcz,Szczecin):
+  source: Bydgoszcz
+  destination: Szczecin
+  routes: [
+    [Bydgoszcz, Kolobrzeg, Szczecin],
+    [Bydgoszcz, Poznan, Szczecin],
+    [Bydgoszcz, Kolobrzeg, Gdansk, Bialystok, Rzeszow, Krakow, Katowice, Wroclaw, Poznan, Szczecin],
+    [Bydgoszcz, Warsaw, Gdansk, Kolobrzeg, Szczecin],
+    [Bydgoszcz, Poznan, Wroclaw, Katowice, Krakow, Rzeszow, Bialystok, Gdansk, Kolobrzeg, Szczecin],
+    [Bydgoszcz, Kolobrzeg, Gdansk, Warsaw, Krakow, Katowice, Wroclaw, Poznan, Szczecin],
+    [Bydgoszcz, Kolobrzeg, Gdansk, Bialystok, Warsaw, Krakow, Katowice, Wroclaw, Poznan, Szczecin]
+  ]
+
+(Bydgoszcz,Warsaw):
+  source: Bydgoszcz
+  destination: Warsaw
+  routes: [
+    [Bydgoszcz, Warsaw],
+    [Bydgoszcz, Kolobrzeg, Gdansk, Warsaw],
+    [Bydgoszcz, Poznan, Szczecin, Kolobrzeg, Gdansk, Warsaw],
+    [Bydgoszcz, Kolobrzeg, Szczecin, Poznan, Wroclaw, Katowice, Krakow, Warsaw],
+    [Bydgoszcz, Kolobrzeg, Gdansk, Bialystok, Warsaw],
+    [Bydgoszcz, Poznan, Wroclaw, Katowice, Krakow, Warsaw],
+    [Bydgoszcz, Poznan, Szczecin, Kolobrzeg, Gdansk, Bialystok, Warsaw]
+  ]
+
+(Bydgoszcz,Wroclaw):
+  source: Bydgoszcz
+  destination: Wroclaw
+  routes: [
+    [Bydgoszcz, Poznan, Wroclaw],
+    [Bydgoszcz, Kolobrzeg, Gdansk, Bialystok, Rzeszow, Krakow, Katowice, Wroclaw],
+    [Bydgoszcz, Poznan, Szczecin, Kolobrzeg, Gdansk, Bialystok, Rzeszow, Krakow, Katowice, Wroclaw],
+    [Bydgoszcz, Warsaw, Krakow, Katowice, Wroclaw],
+    [Bydgoszcz, Kolobrzeg, Szczecin, Poznan, Wroclaw],
+    [Bydgoszcz, Kolobrzeg, Gdansk, Warsaw, Krakow, Katowice, Wroclaw],
+    [Bydgoszcz, Kolobrzeg, Gdansk, Bialystok, Warsaw, Krakow, Katowice, Wroclaw]
+  ]
+
+(Kolobrzeg,Katowice):
+  source: Kolobrzeg
+  destination: Katowice
+  routes: [
+    [Kolobrzeg, Gdansk, Bialystok, Rzeszow, Krakow, Katowice],
+    [Kolobrzeg, Bydgoszcz, Warsaw, Krakow, Katowice],
+    [Kolobrzeg, Gdansk, Warsaw, Krakow, Katowice],
+    [Kolobrzeg, Gdansk, Bialystok, Warsaw, Krakow, Katowice],
+    [Kolobrzeg, Gdansk, Bialystok, Rzeszow, Krakow, Warsaw, Lodz, Katowice],
+    [Kolobrzeg, Szczecin, Poznan, Bydgoszcz, Warsaw, Krakow, Katowice],
+    [Kolobrzeg, Bydgoszcz, Poznan, Wroclaw, Katowice]
+  ]
+
+(Kolobrzeg,Krakow):
+  source: Kolobrzeg
+  destination: Krakow
+  routes: [
+    [Kolobrzeg, Gdansk, Bialystok, Rzeszow, Krakow],
+    [Kolobrzeg, Bydgoszcz, Warsaw, Krakow],
+    [Kolobrzeg, Gdansk, Warsaw, Krakow],
+    [Kolobrzeg, Gdansk, Bialystok, Warsaw, Krakow],
+    [Kolobrzeg, Szczecin, Poznan, Bydgoszcz, Warsaw, Krakow],
+    [Kolobrzeg, Bydgoszcz, Poznan, Wroclaw, Katowice, Krakow],
+    [Kolobrzeg, Bydgoszcz, Warsaw, Lodz, Katowice, Krakow]
+  ]
+
+(Kolobrzeg, Bialystok):
+  source: Kolobrzeg
+  destination: Bialystok
+  routes: [
+    [Kolobrzeg, Gdansk, Bialystok],
+    [Kolobrzeg, Bydgoszcz, Warsaw, Bialystok],
+    [Kolobrzeg, Gdansk, Warsaw, Bialystok],
+    [Kolobrzeg, Szczecin, Poznan, Bydgoszcz, Warsaw, Bialystok],
+    [Kolobrzeg, Bydgoszcz, Poznan, Wroclaw, Katowice, Krakow, Rzeszow, Bialystok],
+    [Kolobrzeg, Bydgoszcz, Warsaw, Gdansk, Bialystok],
+    [Kolobrzeg, Gdansk, Warsaw, Krakow, Rzeszow, Bialystok]
+  ]
+
+(Kolobrzeg,Lodz):
+  source: Kolobrzeg
+  destination: Lodz
+  routes: [
+    [Kolobrzeg, Gdansk, Bialystok, Rzeszow, Krakow, Katowice, Lodz],
+    [Kolobrzeg, Bydgoszcz, Warsaw, Lodz],
+    [Kolobrzeg, Gdansk, Warsaw, Lodz],
+    [Kolobrzeg, Gdansk, Bialystok, Warsaw, Lodz],
+    [Kolobrzeg, Gdansk, Bialystok, Rzeszow, Krakow, Warsaw, Lodz],
+    [Kolobrzeg, Gdansk, Bialystok, Rzeszow, Krakow, Katowice, Wroclaw, Lodz],
+    [Kolobrzeg, Szczecin, Poznan, Bydgoszcz, Warsaw, Lodz]
+  ]
+
+(Kolobrzeg, Poznan):
+  source: Kolobrzeg
+  destination: Poznan
+  routes: [
+    [Kolobrzeg, Bydgoszcz, Poznan],
+    [Kolobrzeg, Szczecin, Poznan],
+    [Kolobrzeg, Bydgoszcz, Warsaw, Krakow, Katowice, Wroclaw, Poznan],
+    [Kolobrzeg, Gdansk, Warsaw, Bydgoszcz, Poznan],
+    [Kolobrzeg, Bydgoszcz, Warsaw, Lodz, Wroclaw, Poznan],
+    [Kolobrzeg, Bydgoszcz, Warsaw, Krakow, Katowice, Lodz, Wroclaw, Poznan],
+    [Kolobrzeg, Gdansk, Bialystok, Warsaw, Bydgoszcz, Poznan]
+  ]
+
+(Kolobrzeg,Rzeszow):
+  source: Kolobrzeg
+  destination: Rzeszow
+  routes: [
+    [Kolobrzeg, Gdansk, Bialystok, Rzeszow],
+    [Kolobrzeg, Bydgoszcz, Warsaw, Krakow, Rzeszow],
+    [Kolobrzeg, Gdansk, Warsaw, Krakow, Rzeszow],
+    [Kolobrzeg, Gdansk, Bialystok, Warsaw, Krakow, Rzeszow],
+    [Kolobrzeg, Szczecin, Poznan, Bydgoszcz, Warsaw, Krakow, Rzeszow],
+    [Kolobrzeg, Bydgoszcz, Poznan, Wroclaw, Katowice, Krakow, Rzeszow],
+    [Kolobrzeg, Bydgoszcz, Warsaw, Bialystok, Rzeszow]
+  ]
+
+(Kolobrzeg,Szczecin):
+  source: Kolobrzeg
+  destination: Szczecin
+  routes: [
+    [Kolobrzeg, Szczecin],
+    [Kolobrzeg, Bydgoszcz, Poznan, Szczecin],
+    [Kolobrzeg, Gdansk, Warsaw, Bydgoszcz, Poznan, Szczecin],
+    [Kolobrzeg, Bydgoszcz, Warsaw, Krakow, Katowice, Wroclaw, Poznan, Szczecin],
+    [Kolobrzeg, Gdansk, Bialystok, Warsaw, Bydgoszcz, Poznan, Szczecin],
+    [Kolobrzeg, Gdansk, Warsaw, Krakow, Katowice, Wroclaw, Poznan, Szczecin],
+    [Kolobrzeg, Bydgoszcz, Warsaw, Lodz, Wroclaw, Poznan, Szczecin]
+  ]
+
+(Kolobrzeg,Warsaw):
+  source: Kolobrzeg
+  destination: Warsaw
+  routes: [
+    [Kolobrzeg, Gdansk, Warsaw],
+    [Kolobrzeg, Bydgoszcz, Warsaw],
+    [Kolobrzeg, Gdansk, Bialystok, Warsaw],
+    [Kolobrzeg, Szczecin, Poznan, Bydgoszcz, Warsaw],
+    [Kolobrzeg, Bydgoszcz, Poznan, Wroclaw, Katowice, Krakow, Warsaw],
+    [Kolobrzeg, Gdansk, Bialystok, Rzeszow, Krakow, Warsaw],
+    [Kolobrzeg, Szczecin, Poznan, Wroclaw, Katowice, Krakow, Warsaw]
+  ]
+
+(Kolobrzeg,Wroclaw):
+  source: Kolobrzeg
+  destination: Wroclaw
+  routes: [
+    [Kolobrzeg, Bydgoszcz, Poznan, Wroclaw],
+    [Kolobrzeg, Gdansk, Bialystok, Rzeszow, Krakow, Katowice, Wroclaw],
+    [Kolobrzeg, Bydgoszcz, Warsaw, Krakow, Katowice, Wroclaw],
+    [Kolobrzeg, Szczecin, Poznan, Wroclaw],
+    [Kolobrzeg, Gdansk, Warsaw, Krakow, Katowice, Wroclaw],
+    [Kolobrzeg, Gdansk, Bialystok, Warsaw, Krakow, Katowice, Wroclaw],
+    [Kolobrzeg, Gdansk, Bialystok, Rzeszow, Krakow, Warsaw, Lodz, Wroclaw]
+  ]
+
+(Katowice,Krakow):
+  source: Katowice
+  destination: Krakow
+  routes: [
+    [Katowice, Krakow],
+    [Katowice, Lodz, Warsaw, Krakow],
+    [Katowice, Wroclaw, Poznan, Bydgoszcz, Kolobrzeg, Gdansk, Bialystok, Rzeszow, Krakow],
+    [Katowice, Lodz, Wroclaw, Poznan, Bydgoszcz, Kolobrzeg, Gdansk, Bialystok, Rzeszow, Krakow],
+    [Katowice, Lodz, Warsaw, Bialystok, Rzeszow, Krakow],
+    [Katowice, Wroclaw, Lodz, Warsaw, Krakow],
+    [Katowice, Wroclaw, Poznan, Szczecin, Kolobrzeg, Gdansk, Bialystok, Rzeszow, Krakow]
+  ]
+
+(Katowice,Bialystok):
+  source: Katowice
+  destination: Bialystok
+  routes: [
+    [Katowice, Krakow, Rzeszow, Bialystok],
+    [Katowice, Lodz, Warsaw, Bialystok],
+    [Katowice, Krakow, Warsaw, Bialystok],
+    [Katowice, Wroclaw, Poznan, Bydgoszcz, Kolobrzeg, Gdansk, Bialystok],
+    [Katowice, Lodz, Wroclaw, Poznan, Bydgoszcz, Kolobrzeg, Gdansk, Bialystok],
+    [Katowice, Lodz, Warsaw, Gdansk, Bialystok],
+    [Katowice, Krakow, Warsaw, Gdansk, Bialystok]
+  ]
+
+(Katowice,Lodz):
+  source: Katowice
+  destination: Lodz
+  routes: [
+    [Katowice, Lodz],
+    [Katowice, Krakow, Warsaw, Lodz],
+    [Katowice, Wroclaw, Lodz],
+    [Katowice, Krakow, Rzeszow, Bialystok, Warsaw, Lodz],
+    [Katowice, Krakow, Warsaw, Bydgoszcz, Poznan, Wroclaw, Lodz],
+    [Katowice, Wroclaw, Poznan, Bydgoszcz, Warsaw, Lodz],
+    [Katowice, Krakow, Rzeszow, Bialystok, Gdansk, Warsaw, Lodz]
+  ]
+
+(Katowice,Poznan):
+  source: Katowice
+  destination: Poznan
+  routes: [
+    [Katowice, Krakow, Rzeszow, Bialystok, Gdansk, Kolobrzeg, Bydgoszcz, Poznan],
+    [Katowice, Lodz, Warsaw, Bydgoszcz, Poznan],
+    [Katowice, Krakow, Warsaw, Bydgoszcz, Poznan],
+    [Katowice, Krakow, Rzeszow, Bialystok, Warsaw, Bydgoszcz, Poznan],
+    [Katowice, Krakow, Rzeszow, Bialystok, Gdansk, Warsaw, Bydgoszcz, Poznan],
+    [Katowice, Krakow, Rzeszow, Bialystok, Gdansk, Kolobrzeg, Szczecin, Poznan],
+    [Katowice, Krakow, Rzeszow, Bialystok, Gdansk, Kolobrzeg, Bydgoszcz, Warsaw, Lodz, Wroclaw, Poznan]
+  ]
+
+(Katowice,Rzeszow):
+  source: Katowice
+  destination: Rzeszow
+  routes: [
+    [Katowice, Krakow, Rzeszow],
+    [Katowice, Lodz, Warsaw, Krakow, Rzeszow],
+    [Katowice, Krakow, Warsaw, Bialystok, Rzeszow],
+    [Katowice, Wroclaw, Poznan, Bydgoszcz, Kolobrzeg, Gdansk, Bialystok, Rzeszow],
+    [Katowice, Lodz, Wroclaw, Poznan, Bydgoszcz, Kolobrzeg, Gdansk, Bialystok, Rzeszow],
+    [Katowice, Lodz, Warsaw, Bialystok, Rzeszow],
+    [Katowice, Krakow, Warsaw, Gdansk, Bialystok, Rzeszow]
+  ]
+
+(Katowice,Szczecin):
+  source: Katowice
+  destination: Szczecin
+  routes: [
+    [Katowice, Krakow, Rzeszow, Bialystok, Gdansk, Kolobrzeg, Szczecin],
+    [Katowice, Lodz, Warsaw, Gdansk, Kolobrzeg, Szczecin],
+    [Katowice, Krakow, Warsaw, Gdansk, Kolobrzeg, Szczecin],
+    [Katowice, Krakow, Rzeszow, Bialystok, Warsaw, Gdansk, Kolobrzeg, Szczecin],
+    [Katowice, Krakow, Rzeszow, Bialystok, Gdansk, Warsaw, Bydgoszcz, Kolobrzeg, Szczecin],
+    [Katowice, Krakow, Rzeszow, Bialystok, Gdansk, Kolobrzeg, Bydgoszcz, Poznan, Szczecin],
+    [Katowice, Wroclaw, Poznan, Szczecin]
+  ]
+
+(Katowice,Warsaw):
+  source: Katowice
+  destination: Warsaw
+  routes: [
+    [Katowice, Krakow, Warsaw],
+    [Katowice, Lodz, Warsaw],
+    [Katowice, Krakow, Rzeszow, Bialystok, Warsaw],
+    [Katowice, Wroclaw, Lodz, Warsaw],
+    [Katowice, Lodz, Wroclaw, Poznan, Bydgoszcz, Warsaw],
+    [Katowice, Krakow, Rzeszow, Bialystok, Gdansk, Warsaw],
+    [Katowice, Wroclaw, Poznan, Bydgoszcz, Warsaw]
+  ]
+
+(Katowice,Wroclaw):
+  source: Katowice
+  destination: Wroclaw
+  routes: [
+    [Katowice, Wroclaw],
+    [Katowice, Lodz, Wroclaw],
+    [Katowice, Krakow, Rzeszow, Bialystok, Gdansk, Kolobrzeg, Bydgoszcz, Poznan, Wroclaw],
+    [Katowice, Lodz, Warsaw, Bydgoszcz, Poznan, Wroclaw],
+    [Katowice, Krakow, Warsaw, Lodz, Wroclaw],
+    [Katowice, Krakow, Rzeszow, Bialystok, Warsaw, Lodz, Wroclaw],
+    [Katowice, Krakow, Rzeszow, Bialystok, Gdansk, Warsaw, Lodz, Wroclaw]
+  ]
+
+(Krakow, Bialystok):
+  source: Krakow
+  destination: Bialystok
+  routes: [
+    [Krakow, Rzeszow, Bialystok],
+    [Krakow, Warsaw, Bialystok],
+    [Krakow, Katowice, Lodz, Warsaw, Bialystok],
+    [Krakow, Warsaw, Gdansk, Bialystok],
+    [Krakow, Katowice, Wroclaw, Poznan, Bydgoszcz, Kolobrzeg, Gdansk, Bialystok],
+    [Krakow, Katowice, Lodz, Wroclaw, Poznan, Bydgoszcz, Kolobrzeg, Gdansk, Bialystok],
+    [Krakow, Katowice, Lodz, Warsaw, Gdansk, Bialystok]
+  ]
+
+(Krakow,Lodz):
+  source: Krakow
+  destination: Lodz
+  routes: [
+    [Krakow, Katowice, Lodz],
+    [Krakow, Warsaw, Lodz],
+    [Krakow, Katowice, Wroclaw, Lodz],
+    [Krakow, Rzeszow, Bialystok, Warsaw, Lodz],
+    [Krakow, Warsaw, Bydgoszcz, Poznan, Wroclaw, Lodz],
+    [Krakow, Katowice, Wroclaw, Poznan, Bydgoszcz, Warsaw, Lodz],
+    [Krakow, Rzeszow, Bialystok, Gdansk, Warsaw, Lodz]
+  ]
+
+(Krakow,Poznan):
+  source: Krakow
+  destination: Poznan
+  routes: [
+    [Krakow, Rzeszow, Bialystok, Gdansk, Kolobrzeg, Bydgoszcz, Poznan],
+    [Krakow, Warsaw, Bydgoszcz, Poznan],
+    [Krakow, Rzeszow, Bialystok, Warsaw, Bydgoszcz, Poznan],
+    [Krakow, Rzeszow, Bialystok, Gdansk, Warsaw, Bydgoszcz, Poznan],
+    [Krakow, Rzeszow, Bialystok, Gdansk, Kolobrzeg, Szczecin, Poznan],
+    [Krakow, Rzeszow, Bialystok, Gdansk, Kolobrzeg, Bydgoszcz, Warsaw, Lodz, Wroclaw, Poznan],
+    [Krakow, Katowice, Lodz, Warsaw, Bydgoszcz, Poznan]
+  ]
+
+(Krakow,Rzeszow):
+  source: Krakow
+  destination: Rzeszow
+  routes: [
+    [Krakow, Rzeszow],
+    [Krakow, Warsaw, Bialystok, Rzeszow],
+    [Krakow, Katowice, Lodz, Warsaw, Bialystok, Rzeszow],
+    [Krakow, Warsaw, Gdansk, Bialystok, Rzeszow],
+    [Krakow, Katowice, Wroclaw, Poznan, Bydgoszcz, Kolobrzeg, Gdansk, Bialystok, Rzeszow],
+    [Krakow, Katowice, Lodz, Wroclaw, Poznan, Bydgoszcz, Kolobrzeg, Gdansk, Bialystok, Rzeszow],
+    [Krakow, Katowice, Lodz, Warsaw, Gdansk, Bialystok, Rzeszow]
+  ]
+
+(Krakow,Szczecin):
+  source: Krakow
+  destination: Szczecin
+  routes: [
+    [Krakow, Rzeszow, Bialystok, Gdansk, Kolobrzeg, Szczecin],
+    [Krakow, Warsaw, Gdansk, Kolobrzeg, Szczecin],
+    [Krakow, Rzeszow, Bialystok, Warsaw, Gdansk, Kolobrzeg, Szczecin],
+    [Krakow, Rzeszow, Bialystok, Gdansk, Warsaw, Bydgoszcz, Kolobrzeg, Szczecin],
+    [Krakow, Rzeszow, Bialystok, Gdansk, Kolobrzeg, Bydgoszcz, Poznan, Szczecin],
+    [Krakow, Katowice, Lodz, Warsaw, Gdansk, Kolobrzeg, Szczecin],
+    [Krakow, Warsaw, Bydgoszcz, Kolobrzeg, Szczecin]
+  ]
+
+(Krakow,Warsaw):
+  source: Krakow
+  destination: Warsaw
+  routes: [
+    [Krakow, Warsaw],
+    [Krakow, Katowice, Lodz, Warsaw],
+    [Krakow, Rzeszow, Bialystok, Warsaw],
+    [Krakow, Katowice, Wroclaw, Lodz, Warsaw],
+    [Krakow, Katowice, Lodz, Wroclaw, Poznan, Bydgoszcz, Warsaw],
+    [Krakow, Rzeszow, Bialystok, Gdansk, Warsaw],
+    [Krakow, Katowice, Wroclaw, Poznan, Bydgoszcz, Warsaw]
+  ]
+
+(Krakow,Wroclaw):
+  source: Krakow
+  destination: Wroclaw
+  routes: [
+    [Krakow, Katowice, Wroclaw],
+    [Krakow, Rzeszow, Bialystok, Gdansk, Kolobrzeg, Bydgoszcz, Poznan, Wroclaw],
+    [Krakow, Katowice, Lodz, Wroclaw],
+    [Krakow, Warsaw, Lodz, Wroclaw],
+    [Krakow, Rzeszow, Bialystok, Warsaw, Lodz, Wroclaw],
+    [Krakow, Rzeszow, Bialystok, Gdansk, Warsaw, Lodz, Wroclaw],
+    [Krakow, Rzeszow, Bialystok, Gdansk, Kolobrzeg, Szczecin, Poznan, Wroclaw]
+  ]
+
+(Bialystok,Lodz):
+  source: Bialystok
+  destination: Lodz
+  routes: [
+    [Bialystok, Rzeszow, Krakow, Katowice, Lodz],
+    [Bialystok, Warsaw, Lodz],
+    [Bialystok, Rzeszow, Krakow, Warsaw, Lodz],
+    [Bialystok, Rzeszow, Krakow, Katowice, Wroclaw, Lodz],
+    [Bialystok, Gdansk, Warsaw, Lodz],
+    [Bialystok, Warsaw, Krakow, Katowice, Lodz],
+    [Bialystok, Rzeszow, Krakow, Warsaw, Bydgoszcz, Poznan, Wroclaw, Lodz]
+  ]
+
+(Bialystok,Poznan):
+  source: Bialystok
+  destination: Poznan
+  routes: [
+    [Bialystok, Gdansk, Kolobrzeg, Bydgoszcz, Poznan],
+    [Bialystok, Warsaw, Bydgoszcz, Poznan],
+    [Bialystok, Gdansk, Warsaw, Bydgoszcz, Poznan],
+    [Bialystok, Gdansk, Kolobrzeg, Szczecin, Poznan],
+    [Bialystok, Gdansk, Kolobrzeg, Bydgoszcz, Warsaw, Krakow, Katowice, Wroclaw, Poznan],
+    [Bialystok, Rzeszow, Krakow, Warsaw, Bydgoszcz, Poznan],
+    [Bialystok, Warsaw, Gdansk, Kolobrzeg, Bydgoszcz, Poznan]
+  ]
+
+(Bialystok, Rzeszow):
+  source: Bialystok
+  destination: Rzeszow
+  routes: [
+    [Bialystok, Rzeszow],
+    [Bialystok, Warsaw, Krakow, Rzeszow],
+    [Bialystok, Gdansk, Warsaw, Krakow, Rzeszow],
+    [Bialystok, Warsaw, Lodz, Katowice, Krakow, Rzeszow],
+    [Bialystok, Gdansk, Kolobrzeg, Bydgoszcz, Warsaw, Krakow, Rzeszow],
+    [Bialystok, Gdansk, Warsaw, Lodz, Katowice, Krakow, Rzeszow],
+    [Bialystok, Warsaw, Bydgoszcz, Poznan, Wroclaw, Katowice, Krakow, Rzeszow]
+  ]
+
+(Bialystok, Szczecin):
+  source: Bialystok
+  destination: Szczecin
+  routes: [
+    [Bialystok, Gdansk, Kolobrzeg, Szczecin],
+    [Bialystok, Warsaw, Gdansk, Kolobrzeg, Szczecin],
+    [Bialystok, Gdansk, Warsaw, Bydgoszcz, Kolobrzeg, Szczecin],
+    [Bialystok, Gdansk, Kolobrzeg, Bydgoszcz, Poznan, Szczecin],
+    [Bialystok, Rzeszow, Krakow, Warsaw, Gdansk, Kolobrzeg, Szczecin],
+    [Bialystok, Warsaw, Bydgoszcz, Kolobrzeg, Szczecin],
+    [Bialystok, Warsaw, Gdansk, Kolobrzeg, Bydgoszcz, Poznan, Szczecin]
+  ]
+
+(Bialystok, Warsaw):
+  source: Bialystok
+  destination: Warsaw
+  routes: [
+    [Bialystok, Warsaw],
+    [Bialystok, Gdansk, Warsaw],
+    [Bialystok, Rzeszow, Krakow, Warsaw],
+    [Bialystok, Gdansk, Kolobrzeg, Bydgoszcz, Warsaw],
+    [Bialystok, Rzeszow, Krakow, Katowice, Lodz, Warsaw],
+    [Bialystok, Gdansk, Kolobrzeg, Szczecin, Poznan, Bydgoszcz, Warsaw],
+    [Bialystok, Gdansk, Kolobrzeg, Bydgoszcz, Poznan, Wroclaw, Katowice, Krakow, Warsaw]
+  ]
+
+(Bialystok, Wroclaw):
+  source: Bialystok
+  destination: Wroclaw
+  routes: [
+    [Bialystok, Gdansk, Kolobrzeg, Bydgoszcz, Poznan, Wroclaw],
+    [Bialystok, Rzeszow, Krakow, Katowice, Wroclaw],
+    [Bialystok, Gdansk, Warsaw, Krakow, Katowice, Wroclaw],
+    [Bialystok, Gdansk, Kolobrzeg, Szczecin, Poznan, Wroclaw],
+    [Bialystok, Gdansk, Kolobrzeg, Bydgoszcz, Warsaw, Krakow, Katowice, Wroclaw],
+    [Bialystok, Warsaw, Krakow, Katowice, Wroclaw],
+    [Bialystok, Rzeszow, Krakow, Warsaw, Lodz, Wroclaw]
+  ]
+
+(Lodz, Poznan):
+  source: Lodz
+  destination: Poznan
+  routes: [
+    [Lodz, Katowice, Krakow, Rzeszow, Bialystok, Gdansk, Kolobrzeg, Bydgoszcz, Poznan],
+    [Lodz, Warsaw, Bydgoszcz, Poznan],
+    [Lodz, Katowice, Wroclaw, Poznan],
+    [Lodz, Katowice, Krakow, Warsaw, Bydgoszcz, Poznan],
+    [Lodz, Katowice, Krakow, Rzeszow, Bialystok, Warsaw, Bydgoszcz, Poznan],
+    [Lodz, Katowice, Krakow, Rzeszow, Bialystok, Gdansk, Warsaw, Bydgoszcz, Poznan],
+    [Lodz, Katowice, Krakow, Rzeszow, Bialystok, Gdansk, Kolobrzeg, Szczecin, Poznan]
+  ]
+
+(Lodz, Rzeszow):
+  source: Lodz
+  destination: Rzeszow
+  routes: [
+    [Lodz, Katowice, Krakow, Rzeszow],
+    [Lodz, Warsaw, Krakow, Rzeszow],
+    [Lodz, Katowice, Wroclaw, Poznan, Bydgoszcz, Kolobrzeg, Gdansk, Bialystok, Rzeszow],
+    [Lodz, Katowice, Krakow, Warsaw, Bialystok, Rzeszow],
+    [Lodz, Wroclaw, Katowice, Krakow, Rzeszow],
+    [Lodz, Warsaw, Bialystok, Rzeszow],
+    [Lodz, Warsaw, Krakow, Katowice, Wroclaw, Poznan, Bydgoszcz, Kolobrzeg, Gdansk, Bialystok, Rzeszow]
+  ]
+
+(Lodz, Szczecin):
+  source: Lodz
+  destination: Szczecin
+  routes: [
+    [Lodz, Katowice, Krakow, Rzeszow, Bialystok, Gdansk, Kolobrzeg, Szczecin],
+    [Lodz, Warsaw, Gdansk, Kolobrzeg, Szczecin],
+    [Lodz, Katowice, Wroclaw, Poznan, Szczecin],
+    [Lodz, Katowice, Krakow, Warsaw, Gdansk, Kolobrzeg, Szczecin],
+    [Lodz, Katowice, Krakow, Rzeszow, Bialystok, Warsaw, Gdansk, Kolobrzeg, Szczecin],
+    [Lodz, Katowice, Krakow, Rzeszow, Bialystok, Gdansk, Warsaw, Bydgoszcz, Kolobrzeg, Szczecin],
+    [Lodz, Katowice, Krakow, Rzeszow, Bialystok, Gdansk, Kolobrzeg, Bydgoszcz, Poznan, Szczecin]
+  ]
+
+
+(Lodz, Warsaw):
+  source: Lodz
+  destination: Warsaw
+  routes: [
+    [Lodz, Warsaw],
+    [Lodz, Katowice, Krakow, Warsaw],
+    [Lodz, Wroclaw, Katowice, Krakow, Warsaw],
+    [Lodz, Katowice, Wroclaw, Poznan, Bydgoszcz, Warsaw],
+    [Lodz, Katowice, Krakow, Rzeszow, Bialystok, Warsaw],
+    [Lodz, Wroclaw, Poznan, Bydgoszcz, Warsaw],
+    [Lodz, Wroclaw, Katowice, Krakow, Rzeszow, Bialystok, Warsaw]
+  ]
+
+(Lodz, Wroclaw):
+  source: Lodz
+  destination: Wroclaw
+  routes: [
+    [Lodz, Wroclaw],
+    [Lodz, Katowice, Wroclaw],
+    [Lodz, Warsaw, Krakow, Katowice, Wroclaw],
+    [Lodz, Katowice, Krakow, Rzeszow, Bialystok, Gdansk, Kolobrzeg, Bydgoszcz, Poznan, Wroclaw],
+    [Lodz, Warsaw, Bydgoszcz, Poznan, Wroclaw],
+    [Lodz, Warsaw, Krakow, Rzeszow, Bialystok, Gdansk, Kolobrzeg, Bydgoszcz, Poznan, Wroclaw],
+    [Lodz, Katowice, Krakow, Warsaw, Bydgoszcz, Poznan, Wroclaw]
+  ]
+
+(Poznan, Rzeszow):
+  source: Poznan
+  destination: Rzeszow
+  routes: [
+    [Poznan, Bydgoszcz, Kolobrzeg, Gdansk, Bialystok, Rzeszow],
+    [Poznan, Szczecin, Kolobrzeg, Gdansk, Bialystok, Rzeszow],
+    [Poznan, Bydgoszcz, Warsaw, Krakow, Rzeszow],
+    [Poznan, Bydgoszcz, Kolobrzeg, Gdansk, Warsaw, Krakow, Rzeszow],
+    [Poznan, Bydgoszcz, Kolobrzeg, Gdansk, Bialystok, Warsaw, Krakow, Rzeszow],
+    [Poznan, Wroclaw, Katowice, Krakow, Rzeszow],
+    [Poznan, Szczecin, Kolobrzeg, Bydgoszcz, Warsaw, Krakow, Rzeszow]
+  ]
+
+(Poznan, Szczecin):
+  source: Poznan
+  destination: Szczecin
+  routes: [
+    [Poznan, Szczecin],
+    [Poznan, Bydgoszcz, Kolobrzeg, Szczecin],
+    [Poznan, Wroclaw, Katowice, Krakow, Rzeszow, Bialystok, Gdansk, Kolobrzeg, Szczecin],
+    [Poznan, Bydgoszcz, Warsaw, Gdansk, Kolobrzeg, Szczecin],
+    [Poznan, Wroclaw, Lodz, Katowice, Krakow, Rzeszow, Bialystok, Gdansk, Kolobrzeg, Szczecin],
+    [Poznan, Wroclaw, Katowice, Lodz, Warsaw, Gdansk, Kolobrzeg, Szczecin],
+    [Poznan, Wroclaw, Katowice, Krakow, Warsaw, Gdansk, Kolobrzeg, Szczecin]
+  ]
+
+(Poznan, Warsaw):
+  source: Poznan
+  destination: Warsaw
+  routes: [
+    [Poznan, Bydgoszcz, Warsaw],
+    [Poznan, Szczecin, Kolobrzeg, Gdansk, Warsaw],
+    [Poznan, Bydgoszcz, Kolobrzeg, Gdansk, Warsaw],
+    [Poznan, Wroclaw, Katowice, Krakow, Warsaw],
+    [Poznan, Szczecin, Kolobrzeg, Bydgoszcz, Warsaw],
+    [Poznan, Szczecin, Kolobrzeg, Gdansk, Bialystok, Warsaw],
+    [Poznan, Bydgoszcz, Kolobrzeg, Gdansk, Bialystok, Warsaw]
+  ]
+
+(Poznan, Wroclaw):
+  source: Poznan
+  destination: Wroclaw
+  routes: [
+    [Poznan, Wroclaw],
+    [Poznan, Bydgoszcz, Kolobrzeg, Gdansk, Bialystok, Rzeszow, Krakow, Katowice, Wroclaw],
+    [Poznan, Szczecin, Kolobrzeg, Gdansk, Bialystok, Rzeszow, Krakow, Katowice, Wroclaw],
+    [Poznan, Bydgoszcz, Warsaw, Krakow, Katowice, Wroclaw],
+    [Poznan, Bydgoszcz, Kolobrzeg, Gdansk, Warsaw, Krakow, Katowice, Wroclaw],
+    [Poznan, Bydgoszcz, Kolobrzeg, Gdansk, Bialystok, Warsaw, Krakow, Katowice, Wroclaw],
+    [Poznan, Bydgoszcz, Kolobrzeg, Gdansk, Bialystok, Rzeszow, Krakow, Warsaw, Lodz, Wroclaw]
+  ]
+
+(Rzeszow, Szczecin):
+  source: Rzeszow
+  destination: Szczecin
+  routes: [
+    [Rzeszow, Bialystok, Gdansk, Kolobrzeg, Szczecin],
+    [Rzeszow, Krakow, Warsaw, Gdansk, Kolobrzeg, Szczecin],
+    [Rzeszow, Bialystok, Warsaw, Gdansk, Kolobrzeg, Szczecin],
+    [Rzeszow, Bialystok, Gdansk, Warsaw, Bydgoszcz, Kolobrzeg, Szczecin],
+    [Rzeszow, Bialystok, Gdansk, Kolobrzeg, Bydgoszcz, Poznan, Szczecin],
+    [Rzeszow, Krakow, Katowice, Lodz, Warsaw, Gdansk, Kolobrzeg, Szczecin],
+    [Rzeszow, Krakow, Warsaw, Bydgoszcz, Kolobrzeg, Szczecin]
+  ]
+
+(Rzeszow, Warsaw):
+  source: Rzeszow
+  destination: Warsaw
+  routes: [
+    [Rzeszow, Krakow, Warsaw],
+    [Rzeszow, Bialystok, Warsaw],
+    [Rzeszow, Krakow, Katowice, Lodz, Warsaw],
+    [Rzeszow, Bialystok, Gdansk, Warsaw],
+    [Rzeszow, Krakow, Katowice, Wroclaw, Lodz, Warsaw],
+    [Rzeszow, Krakow, Katowice, Lodz, Wroclaw, Poznan, Bydgoszcz, Warsaw],
+    [Rzeszow, Bialystok, Gdansk, Kolobrzeg, Bydgoszcz, Warsaw]
+  ]
+
+(Rzeszow, Wroclaw):
+  source: Rzeszow
+  destination: Wroclaw
+  routes: [
+    [Rzeszow, Krakow, Katowice, Wroclaw],
+    [Rzeszow, Bialystok, Gdansk, Kolobrzeg, Bydgoszcz, Poznan, Wroclaw],
+    [Rzeszow, Krakow, Warsaw, Lodz, Wroclaw],
+    [Rzeszow, Krakow, Katowice, Lodz, Wroclaw],
+    [Rzeszow, Bialystok, Warsaw, Krakow, Katowice, Wroclaw],
+    [Rzeszow, Bialystok, Gdansk, Warsaw, Krakow, Katowice, Wroclaw],
+    [Rzeszow, Bialystok, Gdansk, Kolobrzeg, Szczecin, Poznan, Wroclaw]
+  ]
+
+(Szczecin, Warsaw):
+  source: Szczecin
+  destination: Warsaw
+  routes: [
+    [Szczecin, Kolobrzeg, Gdansk, Warsaw],
+    [Szczecin, Poznan, Bydgoszcz, Warsaw],
+    [Szczecin, Kolobrzeg, Bydgoszcz, Warsaw],
+    [Szczecin, Kolobrzeg, Gdansk, Bialystok, Warsaw],
+    [Szczecin, Poznan, Wroclaw, Katowice, Krakow, Warsaw],
+    [Szczecin, Poznan, Bydgoszcz, Kolobrzeg, Gdansk, Warsaw],
+    [Szczecin, Kolobrzeg, Bydgoszcz, Poznan, Wroclaw, Katowice, Krakow, Warsaw]
+  ]
+
+(Szczecin, Wroclaw):
+  source: Szczecin
+  destination: Wroclaw
+  routes: [
+    [Szczecin, Poznan, Wroclaw],
+    [Szczecin, Kolobrzeg, Bydgoszcz, Poznan, Wroclaw],
+    [Szczecin, Poznan, Bydgoszcz, Kolobrzeg, Gdansk, Bialystok, Rzeszow, Krakow, Katowice, Wroclaw],
+    [Szczecin, Kolobrzeg, Gdansk, Bialystok, Rzeszow, Krakow, Katowice, Wroclaw],
+    [Szczecin, Kolobrzeg, Bydgoszcz, Warsaw, Krakow, Katowice, Wroclaw],
+    [Szczecin, Poznan, Bydgoszcz, Warsaw, Krakow, Katowice, Wroclaw],
+    [Szczecin, Poznan, Bydgoszcz, Kolobrzeg, Gdansk, Warsaw, Krakow, Katowice, Wroclaw]
+  ]
+
+(Warsaw, Wroclaw):
+  source: Warsaw
+  destination: Wroclaw
+  routes: [
+    [Warsaw, Krakow, Katowice, Wroclaw],
+    [Warsaw, Lodz, Wroclaw],
+    [Warsaw, Krakow, Rzeszow, Bialystok, Gdansk, Kolobrzeg, Bydgoszcz, Poznan, Wroclaw],
+    [Warsaw, Krakow, Katowice, Lodz, Wroclaw],
+    [Warsaw, Bydgoszcz, Poznan, Wroclaw],
+    [Warsaw, Lodz, Katowice, Wroclaw],
+    [Warsaw, Krakow, Rzeszow, Bialystok, Gdansk, Kolobrzeg, Szczecin, Poznan, Wroclaw]
+  ]
+
+(Bydgoszcz,Gdansk):
+  source: Bydgoszcz
+  destination: Gdansk
+  routes: [
+    [Bydgoszcz, Kolobrzeg, Gdansk],
+    [Bydgoszcz, Warsaw, Gdansk],
+    [Bydgoszcz, Poznan, Szczecin, Kolobrzeg, Gdansk],
+    [Bydgoszcz, Warsaw, Bialystok, Gdansk],
+    [Bydgoszcz, Poznan, Wroclaw, Katowice, Krakow, Warsaw, Gdansk],
+    [Bydgoszcz, Warsaw, Krakow, Katowice, Wroclaw, Poznan, Szczecin, Kolobrzeg, Gdansk],
+    [Bydgoszcz, Warsaw, Krakow, Rzeszow, Bialystok, Gdansk]]
+
+(Kolobrzeg,Gdansk):
+  source: Kolobrzeg
+  destination: Gdansk
+  routes: [
+    [Kolobrzeg, Gdansk],
+    [Kolobrzeg, Bydgoszcz, Warsaw, Gdansk],
+    [Kolobrzeg, Bydgoszcz, Warsaw, Bialystok, Gdansk],
+    [Kolobrzeg, Bydgoszcz, Poznan, Wroclaw, Katowice, Krakow, Warsaw, Gdansk],
+    [Kolobrzeg, Szczecin, Poznan, Bydgoszcz, Warsaw, Gdansk],
+    [Kolobrzeg, Bydgoszcz, Warsaw, Krakow, Rzeszow, Bialystok, Gdansk],
+    [Kolobrzeg, Bydgoszcz, Poznan, Wroclaw, Katowice, Krakow, Warsaw, Bialystok, Gdansk]]
+
+(Katowice,Gdansk):
+  source: Katowice
+  destination: Gdansk
+  routes: [
+    [Katowice, Krakow, Rzeszow, Bialystok, Gdansk],
+    [Katowice, Krakow, Warsaw, Gdansk],
+    [Katowice, Krakow, Warsaw, Bialystok, Gdansk],
+    [Katowice, Lodz, Warsaw, Krakow, Rzeszow, Bialystok, Gdansk],
+    [Katowice, Krakow, Warsaw, Bydgoszcz, Kolobrzeg, Gdansk],
+    [Katowice, Lodz, Warsaw, Gdansk],
+    [Katowice, Lodz, Warsaw, Bialystok, Gdansk]]
+
+(Krakow,Gdansk):
+  source: Krakow
+  destination: Gdansk
+  routes: [
+    [Krakow, Rzeszow, Bialystok, Gdansk],
+    [Krakow, Warsaw, Gdansk],
+    [Krakow, Warsaw, Bialystok, Gdansk],
+    [Krakow, Warsaw, Bydgoszcz, Kolobrzeg, Gdansk],
+    [Krakow, Katowice, Lodz, Warsaw, Gdansk],
+    [Krakow, Katowice, Lodz, Warsaw, Bialystok, Gdansk],
+    [Krakow, Warsaw, Bydgoszcz, Poznan, Szczecin, Kolobrzeg, Gdansk]
+  ]
+
+(Bialystok,Gdansk):
+  source: Bialystok
+  destination: Gdansk
+  routes: [
+    [Bialystok, Gdansk],
+    [Bialystok, Warsaw, Gdansk],
+    [Bialystok, Warsaw, Bydgoszcz, Kolobrzeg, Gdansk],
+    [Bialystok, Rzeszow, Krakow, Warsaw, Gdansk],
+    [Bialystok, Warsaw, Bydgoszcz, Poznan, Szczecin, Kolobrzeg, Gdansk],
+    [Bialystok, Rzeszow, Krakow, Katowice, Wroclaw, Poznan, Bydgoszcz, Kolobrzeg, Gdansk],
+    [Bialystok, Rzeszow, Krakow, Warsaw, Bydgoszcz, Kolobrzeg, Gdansk]
+  ]
+
+(Lodz,Gdansk):
+  source: Lodz
+  destination: Gdansk
+  routes: [
+    [Lodz, Katowice, Krakow, Rzeszow, Bialystok, Gdansk],
+    [Lodz, Warsaw, Gdansk],
+    [Lodz, Warsaw, Bialystok, Gdansk],
+    [Lodz, Warsaw, Krakow, Rzeszow, Bialystok, Gdansk],
+    [Lodz, Wroclaw, Katowice, Krakow, Rzeszow, Bialystok, Gdansk],
+    [Lodz, Warsaw, Bydgoszcz, Kolobrzeg, Gdansk],
+    [Lodz, Katowice, Krakow, Warsaw, Gdansk]
+  ]
+
+(Poznan,Gdansk):
+  source: Poznan
+  destination: Gdansk
+  routes: [
+    [Poznan, Bydgoszcz, Kolobrzeg, Gdansk],
+    [Poznan, Bydgoszcz, Warsaw, Gdansk],
+    [Poznan, Szczecin, Kolobrzeg, Gdansk],
+    [Poznan, Wroclaw, Katowice, Krakow, Warsaw, Bydgoszcz, Kolobrzeg, Gdansk],
+    [Poznan, Bydgoszcz, Warsaw, Bialystok, Gdansk],
+    [Poznan, Wroclaw, Katowice, Krakow, Warsaw, Gdansk],
+    [Poznan, Szczecin, Kolobrzeg, Bydgoszcz, Warsaw, Gdansk]
+  ]
+
+(Rzeszow,Gdansk):
+  source: Rzeszow
+  destination: Gdansk
+  routes: [
+    [Rzeszow, Bialystok, Gdansk],
+    [Rzeszow, Krakow, Warsaw, Gdansk],
+    [Rzeszow, Krakow, Warsaw, Bialystok, Gdansk],
+    [Rzeszow, Krakow, Warsaw, Bydgoszcz, Kolobrzeg, Gdansk],
+    [Rzeszow, Bialystok, Warsaw, Gdansk],
+    [Rzeszow, Krakow, Katowice, Lodz, Warsaw, Bialystok, Gdansk],
+    [Rzeszow, Krakow, Warsaw, Bydgoszcz, Poznan, Szczecin, Kolobrzeg, Gdansk]
+  ]
+
+(Szczecin,Gdansk):
+  source: Szczecin
+  destination: Gdansk
+  routes: [
+    [Szczecin, Kolobrzeg, Gdansk],
+    [Szczecin, Kolobrzeg, Bydgoszcz, Warsaw, Gdansk],
+    [Szczecin, Poznan, Bydgoszcz, Kolobrzeg, Gdansk],
+    [Szczecin, Kolobrzeg, Bydgoszcz, Warsaw, Bialystok, Gdansk],
+    [Szczecin, Poznan, Wroclaw, Katowice, Krakow, Warsaw, Gdansk],
+    [Szczecin, Poznan, Bydgoszcz, Warsaw, Gdansk],
+    [Szczecin, Poznan, Wroclaw, Katowice, Krakow, Warsaw, Bydgoszcz, Kolobrzeg, Gdansk]
+  ]
+
+(Warsaw,Gdansk):
+  source: Warsaw
+  destination: Gdansk
+  routes: [
+    [Warsaw, Gdansk],
+    [Warsaw, Bydgoszcz, Kolobrzeg, Gdansk],
+    [Warsaw, Bialystok, Gdansk],
+    [Warsaw, Bydgoszcz, Poznan, Szczecin, Kolobrzeg, Gdansk],
+    [Warsaw, Krakow, Katowice, Wroclaw, Poznan, Bydgoszcz, Kolobrzeg, Gdansk],
+    [Warsaw, Krakow, Rzeszow, Bialystok, Gdansk],
+    [Warsaw, Krakow, Katowice, Wroclaw, Poznan, Szczecin, Kolobrzeg, Gdansk]
+  ]
+
+(Wroclaw,Gdansk):
+  source: Wroclaw
+  destination: Gdansk
+  routes: [
+    [Wroclaw, Poznan, Bydgoszcz, Kolobrzeg, Gdansk],
+    [Wroclaw, Katowice, Krakow, Rzeszow, Bialystok, Gdansk],
+    [Wroclaw, Poznan, Szczecin, Kolobrzeg, Gdansk],
+    [Wroclaw, Katowice, Krakow, Warsaw, Bydgoszcz, Kolobrzeg, Gdansk],
+    [Wroclaw, Katowice, Krakow, Warsaw, Gdansk],
+    [Wroclaw, Katowice, Krakow, Warsaw, Bialystok, Gdansk],
+    [Wroclaw, Lodz, Warsaw, Krakow, Rzeszow, Bialystok, Gdansk]
+  ]
+
+(Kolobrzeg,Bydgoszcz):
+  source: Kolobrzeg
+  destination: Bydgoszcz
+  routes: [
+    [Kolobrzeg, Bydgoszcz],
+    [Kolobrzeg, Szczecin, Poznan, Bydgoszcz],
+    [Kolobrzeg, Gdansk, Warsaw, Bydgoszcz],
+    [Kolobrzeg, Gdansk, Bialystok, Rzeszow, Krakow, Katowice, Wroclaw, Poznan, Bydgoszcz],
+    [Kolobrzeg, Gdansk, Bialystok, Warsaw, Bydgoszcz],
+    [Kolobrzeg, Szczecin, Poznan, Wroclaw, Katowice, Krakow, Rzeszow, Bialystok, Gdansk, Warsaw, Bydgoszcz],
+    [Kolobrzeg, Gdansk, Bialystok, Rzeszow, Krakow, Katowice, Lodz, Wroclaw, Poznan, Bydgoszcz]
+  ]
+
+(Katowice,Bydgoszcz):
+  source: Katowice
+  destination: Bydgoszcz
+  routes: [
+    [Katowice, Krakow, Rzeszow, Bialystok, Gdansk, Kolobrzeg, Bydgoszcz],
+    [Katowice, Krakow, Rzeszow, Bialystok, Gdansk, Kolobrzeg, Szczecin, Poznan, Bydgoszcz],
+    [Katowice, Wroclaw, Poznan, Szczecin, Kolobrzeg, Bydgoszcz],
+    [Katowice, Krakow, Warsaw, Gdansk, Kolobrzeg, Bydgoszcz],
+    [Katowice, Krakow, Warsaw, Bialystok, Gdansk, Kolobrzeg, Bydgoszcz],
+    [Katowice, Lodz, Warsaw, Krakow, Rzeszow, Bialystok, Gdansk, Kolobrzeg, Bydgoszcz],
+    [Katowice, Krakow, Warsaw, Bydgoszcz]
+  ]
+
+(Krakow,Bydgoszcz):
+  source: Krakow
+  destination: Bydgoszcz
+  routes: [
+    [Krakow, Rzeszow, Bialystok, Gdansk, Kolobrzeg, Bydgoszcz],
+    [Krakow, Rzeszow, Bialystok, Gdansk, Kolobrzeg, Szczecin, Poznan, Bydgoszcz],
+    [Krakow, Katowice, Wroclaw, Poznan, Szczecin, Kolobrzeg, Bydgoszcz],
+    [Krakow, Warsaw, Gdansk, Kolobrzeg, Bydgoszcz],
+    [Krakow, Warsaw, Bialystok, Gdansk, Kolobrzeg, Bydgoszcz],
+    [Krakow, Warsaw, Bydgoszcz],
+    [Krakow, Katowice, Wroclaw, Poznan, Bydgoszcz]
+  ]
+
+(Bialystok, Bydgoszcz):
+  source: Bialystok
+  destination: Bydgoszcz
+  routes: [
+    [Bialystok, Gdansk, Kolobrzeg, Bydgoszcz],
+    [Bialystok, Gdansk, Kolobrzeg, Szczecin, Poznan, Bydgoszcz],
+    [Bialystok, Rzeszow, Krakow, Katowice, Wroclaw, Poznan, Szczecin, Kolobrzeg, Bydgoszcz],
+    [Bialystok, Warsaw, Gdansk, Kolobrzeg, Bydgoszcz],
+    [Bialystok, Warsaw, Bydgoszcz],
+    [Bialystok, Rzeszow, Krakow, Katowice, Wroclaw, Poznan, Bydgoszcz],
+    [Bialystok, Warsaw, Gdansk, Kolobrzeg, Szczecin, Poznan, Bydgoszcz]
+  ]
+
+(Lodz, Bydgoszcz):
+  source: Lodz
+  destination: Bydgoszcz
+  routes: [
+    [Lodz, Katowice, Krakow, Rzeszow, Bialystok, Gdansk, Kolobrzeg, Bydgoszcz],
+    [Lodz, Katowice, Krakow, Rzeszow, Bialystok, Gdansk, Kolobrzeg, Szczecin, Poznan, Bydgoszcz],
+    [Lodz, Wroclaw, Poznan, Szczecin, Kolobrzeg, Bydgoszcz],
+    [Lodz, Warsaw, Gdansk, Kolobrzeg, Bydgoszcz],
+    [Lodz, Warsaw, Bialystok, Gdansk, Kolobrzeg, Bydgoszcz],
+    [Lodz, Warsaw, Krakow, Rzeszow, Bialystok, Gdansk, Kolobrzeg, Bydgoszcz],
+    [Lodz, Wroclaw, Katowice, Krakow, Rzeszow, Bialystok, Gdansk, Kolobrzeg, Bydgoszcz]
+  ]
+
+(Poznan, Bydgoszcz):
+  source: Poznan
+  destination: Bydgoszcz
+  routes: [
+    [Poznan, Bydgoszcz],
+    [Poznan, Szczecin, Kolobrzeg, Bydgoszcz],
+    [Poznan, Szczecin, Kolobrzeg, Gdansk, Warsaw, Bydgoszcz],
+    [Poznan, Wroclaw, Katowice, Krakow, Rzeszow, Bialystok, Gdansk, Kolobrzeg, Bydgoszcz],
+    [Poznan, Szczecin, Kolobrzeg, Gdansk, Bialystok, Warsaw, Bydgoszcz],
+    [Poznan, Wroclaw, Katowice, Krakow, Rzeszow, Bialystok, Gdansk, Warsaw, Bydgoszcz],
+    [Poznan, Wroclaw, Katowice, Krakow, Warsaw, Gdansk, Kolobrzeg, Bydgoszcz]
+  ]
+
+(Rzeszow, Bydgoszcz):
+  source: Rzeszow
+  destination: Bydgoszcz
+  routes: [
+    [Rzeszow, Bialystok, Gdansk, Kolobrzeg, Bydgoszcz],
+    [Rzeszow, Bialystok, Gdansk, Kolobrzeg, Szczecin, Poznan, Bydgoszcz],
+    [Rzeszow, Krakow, Katowice, Wroclaw, Poznan, Szczecin, Kolobrzeg, Bydgoszcz],
+    [Rzeszow, Krakow, Warsaw, Gdansk, Kolobrzeg, Bydgoszcz],
+    [Rzeszow, Krakow, Warsaw, Bialystok, Gdansk, Kolobrzeg, Bydgoszcz],
+    [Rzeszow, Krakow, Warsaw, Bydgoszcz],
+    [Rzeszow, Krakow, Katowice, Wroclaw, Poznan, Bydgoszcz]
+  ]
+
+(Szczecin, Bydgoszcz):
+  source: Szczecin
+  destination: Bydgoszcz
+  routes: [
+    [Szczecin, Kolobrzeg, Bydgoszcz],
+    [Szczecin, Poznan, Bydgoszcz],
+    [Szczecin, Poznan, Wroclaw, Katowice, Krakow, Rzeszow, Bialystok, Gdansk, Kolobrzeg, Bydgoszcz],
+    [Szczecin, Kolobrzeg, Gdansk, Warsaw, Bydgoszcz],
+    [Szczecin, Kolobrzeg, Gdansk, Bialystok, Rzeszow, Krakow, Katowice, Wroclaw, Poznan, Bydgoszcz],
+    [Szczecin, Kolobrzeg, Gdansk, Warsaw, Krakow, Katowice, Wroclaw, Poznan, Bydgoszcz],
+    [Szczecin, Kolobrzeg, Gdansk, Bialystok, Warsaw, Krakow, Katowice, Wroclaw, Poznan, Bydgoszcz]
+  ]
+
+(Warsaw,Bydgoszcz):
+  source: Warsaw
+  destination: Bydgoszcz
+  routes: [
+    [Warsaw, Bydgoszcz],
+    [Warsaw, Gdansk, Kolobrzeg, Bydgoszcz],
+    [Warsaw, Gdansk, Kolobrzeg, Szczecin, Poznan, Bydgoszcz],
+    [Warsaw, Krakow, Katowice, Wroclaw, Poznan, Szczecin, Kolobrzeg, Bydgoszcz],
+    [Warsaw, Bialystok, Gdansk, Kolobrzeg, Bydgoszcz],
+    [Warsaw, Krakow, Katowice, Wroclaw, Poznan, Bydgoszcz],
+    [Warsaw, Bialystok, Gdansk, Kolobrzeg, Szczecin, Poznan, Bydgoszcz]
+  ]
+
+(Wroclaw,Bydgoszcz):
+  source: Wroclaw
+  destination: Bydgoszcz
+  routes: [
+    [Wroclaw, Poznan, Bydgoszcz],
+    [Wroclaw, Katowice, Krakow, Rzeszow, Bialystok, Gdansk, Kolobrzeg, Bydgoszcz],
+    [Wroclaw, Katowice, Krakow, Rzeszow, Bialystok, Gdansk, Kolobrzeg, Szczecin, Poznan, Bydgoszcz],
+    [Wroclaw, Katowice, Krakow, Warsaw, Bydgoszcz],
+    [Wroclaw, Poznan, Szczecin, Kolobrzeg, Bydgoszcz],
+    [Wroclaw, Katowice, Krakow, Warsaw, Gdansk, Kolobrzeg, Bydgoszcz],
+    [Wroclaw, Katowice, Krakow, Warsaw, Bialystok, Gdansk, Kolobrzeg, Bydgoszcz]
+  ]
+
+(Katowice,Kolobrzeg):
+  source: Katowice
+  destination: Kolobrzeg
+  routes: [
+    [Katowice, Krakow, Rzeszow, Bialystok, Gdansk, Kolobrzeg],
+    [Katowice, Krakow, Warsaw, Bydgoszcz, Kolobrzeg],
+    [Katowice, Krakow, Warsaw, Gdansk, Kolobrzeg],
+    [Katowice, Krakow, Warsaw, Bialystok, Gdansk, Kolobrzeg],
+    [Katowice, Lodz, Warsaw, Krakow, Rzeszow, Bialystok, Gdansk, Kolobrzeg],
+    [Katowice, Krakow, Warsaw, Bydgoszcz, Poznan, Szczecin, Kolobrzeg],
+    [Katowice, Wroclaw, Poznan, Bydgoszcz, Kolobrzeg]
+  ]
+
+(Krakow,Kolobrzeg):
+  source: Krakow
+  destination: Kolobrzeg
+  routes: [
+    [Krakow, Rzeszow, Bialystok, Gdansk, Kolobrzeg],
+    [Krakow, Warsaw, Bydgoszcz, Kolobrzeg],
+    [Krakow, Warsaw, Gdansk, Kolobrzeg],
+    [Krakow, Warsaw, Bialystok, Gdansk, Kolobrzeg],
+    [Krakow, Warsaw, Bydgoszcz, Poznan, Szczecin, Kolobrzeg],
+    [Krakow, Katowice, Wroclaw, Poznan, Bydgoszcz, Kolobrzeg],
+    [Krakow, Katowice, Lodz, Warsaw, Bydgoszcz, Kolobrzeg]
+  ]
+
+(Bialystok,Kolobrzeg):
+  source: Bialystok
+  destination: Kolobrzeg
+  routes: [
+    [Bialystok, Gdansk, Kolobrzeg],
+    [Bialystok, Warsaw, Bydgoszcz, Kolobrzeg],
+    [Bialystok, Warsaw, Gdansk, Kolobrzeg],
+    [Bialystok, Warsaw, Bydgoszcz, Poznan, Szczecin, Kolobrzeg],
+    [Bialystok, Rzeszow, Krakow, Katowice, Wroclaw, Poznan, Bydgoszcz, Kolobrzeg],
+    [Bialystok, Gdansk, Warsaw, Bydgoszcz, Kolobrzeg],
+    [Bialystok, Rzeszow, Krakow, Warsaw, Gdansk, Kolobrzeg]
+  ]
+
+(Lodz,Kolobrzeg):
+  source: Lodz
+  destination: Kolobrzeg
+  routes: [
+    [Lodz, Katowice, Krakow, Rzeszow, Bialystok, Gdansk, Kolobrzeg],
+    [Lodz, Warsaw, Bydgoszcz, Kolobrzeg],
+    [Lodz, Warsaw, Gdansk, Kolobrzeg],
+    [Lodz, Warsaw, Bialystok, Gdansk, Kolobrzeg],
+    [Lodz, Warsaw, Krakow, Rzeszow, Bialystok, Gdansk, Kolobrzeg],
+    [Lodz, Wroclaw, Katowice, Krakow, Rzeszow, Bialystok, Gdansk, Kolobrzeg],
+    [Lodz, Warsaw, Bydgoszcz, Poznan, Szczecin, Kolobrzeg]
+  ]
+
+(Poznan,Kolobrzeg):
+  source: Poznan
+  destination: Kolobrzeg
+  routes: [
+    [Poznan, Bydgoszcz, Kolobrzeg],
+    [Poznan, Szczecin, Kolobrzeg],
+    [Poznan, Wroclaw, Katowice, Krakow, Warsaw, Bydgoszcz, Kolobrzeg],
+    [Poznan, Bydgoszcz, Warsaw, Gdansk, Kolobrzeg],
+    [Poznan, Wroclaw, Lodz, Warsaw, Bydgoszcz, Kolobrzeg],
+    [Poznan, Wroclaw, Lodz, Katowice, Krakow, Warsaw, Bydgoszcz, Kolobrzeg],
+    [Poznan, Bydgoszcz, Warsaw, Bialystok, Gdansk, Kolobrzeg]
+  ]
+
+(Rzeszow,Kolobrzeg):
+  source: Rzeszow
+  destination: Kolobrzeg
+  routes: [
+    [Rzeszow, Bialystok, Gdansk, Kolobrzeg],
+    [Rzeszow, Krakow, Warsaw, Bydgoszcz, Kolobrzeg],
+    [Rzeszow, Krakow, Warsaw, Gdansk, Kolobrzeg],
+    [Rzeszow, Krakow, Warsaw, Bialystok, Gdansk, Kolobrzeg],
+    [Rzeszow, Krakow, Warsaw, Bydgoszcz, Poznan, Szczecin, Kolobrzeg],
+    [Rzeszow, Krakow, Katowice, Wroclaw, Poznan, Bydgoszcz, Kolobrzeg],
+    [Rzeszow, Bialystok, Warsaw, Bydgoszcz, Kolobrzeg]
+  ]
+
+(Szczecin,Kolobrzeg):
+  source: Szczecin
+  destination: Kolobrzeg
+  routes: [
+    [Szczecin, Kolobrzeg],
+    [Szczecin, Poznan, Bydgoszcz, Kolobrzeg],
+    [Szczecin, Poznan, Bydgoszcz, Warsaw, Gdansk, Kolobrzeg],
+    [Szczecin, Poznan, Wroclaw, Katowice, Krakow, Warsaw, Bydgoszcz, Kolobrzeg],
+    [Szczecin, Poznan, Bydgoszcz, Warsaw, Bialystok, Gdansk, Kolobrzeg],
+    [Szczecin, Poznan, Wroclaw, Katowice, Krakow, Warsaw, Gdansk, Kolobrzeg],
+    [Szczecin, Poznan, Wroclaw, Lodz, Warsaw, Bydgoszcz, Kolobrzeg]
+  ]
+
+(Warsaw,Kolobrzeg):
+  source: Warsaw
+  destination: Kolobrzeg
+  routes: [
+    [Warsaw, Gdansk, Kolobrzeg],
+    [Warsaw, Bydgoszcz, Kolobrzeg],
+    [Warsaw, Bialystok, Gdansk, Kolobrzeg],
+    [Warsaw, Bydgoszcz, Poznan, Szczecin, Kolobrzeg],
+    [Warsaw, Krakow, Katowice, Wroclaw, Poznan, Bydgoszcz, Kolobrzeg],
+    [Warsaw, Krakow, Rzeszow, Bialystok, Gdansk, Kolobrzeg],
+    [Warsaw, Krakow, Katowice, Wroclaw, Poznan, Szczecin, Kolobrzeg]
+  ]  
+
+(Wroclaw,Kolobrzeg):
+  source: Wroclaw
+  destination: Kolobrzeg
+  routes: [
+    [Wroclaw, Poznan, Bydgoszcz, Kolobrzeg],
+    [Wroclaw, Katowice, Krakow, Rzeszow, Bialystok, Gdansk, Kolobrzeg],
+    [Wroclaw, Katowice, Krakow, Warsaw, Bydgoszcz, Kolobrzeg],
+    [Wroclaw, Poznan, Szczecin, Kolobrzeg],
+    [Wroclaw, Katowice, Krakow, Warsaw, Gdansk, Kolobrzeg],
+    [Wroclaw, Katowice, Krakow, Warsaw, Bialystok, Gdansk, Kolobrzeg],
+    [Wroclaw, Lodz, Warsaw, Krakow, Rzeszow, Bialystok, Gdansk, Kolobrzeg]
+  ]
+
+(Krakow,Katowice):
+  source: Krakow
+  destination: Katowice
+  routes: [
+    [Krakow, Katowice],
+    [Krakow, Warsaw, Lodz, Katowice],
+    [Krakow, Rzeszow, Bialystok, Gdansk, Kolobrzeg, Bydgoszcz, Poznan, Wroclaw, Katowice],
+    [Krakow, Rzeszow, Bialystok, Gdansk, Kolobrzeg, Bydgoszcz, Poznan, Wroclaw, Lodz, Katowice],
+    [Krakow, Rzeszow, Bialystok, Warsaw, Lodz, Katowice],
+    [Krakow, Warsaw, Lodz, Wroclaw, Katowice],
+    [Krakow, Rzeszow, Bialystok, Gdansk, Kolobrzeg, Szczecin, Poznan, Wroclaw, Katowice]
+  ]
+
+(Bialystok,Katowice):
+  source: Bialystok
+  destination: Katowice
+  routes: [
+    [Bialystok, Rzeszow, Krakow, Katowice],
+    [Bialystok, Warsaw, Lodz, Katowice],
+    [Bialystok, Warsaw, Krakow, Katowice],
+    [Bialystok, Gdansk, Kolobrzeg, Bydgoszcz, Poznan, Wroclaw, Katowice],
+    [Bialystok, Gdansk, Kolobrzeg, Bydgoszcz, Poznan, Wroclaw, Lodz, Katowice],
+    [Bialystok, Gdansk, Warsaw, Lodz, Katowice],
+    [Bialystok, Gdansk, Warsaw, Krakow, Katowice]
+  ]
+
+(Lodz,Katowice):
+  source: Lodz
+  destination: Katowice
+  routes: [
+    [Lodz, Katowice],
+    [Lodz, Warsaw, Krakow, Katowice],
+    [Lodz, Wroclaw, Katowice],
+    [Lodz, Warsaw, Bialystok, Rzeszow, Krakow, Katowice],
+    [Lodz, Wroclaw, Poznan, Bydgoszcz, Warsaw, Krakow, Katowice],
+    [Lodz, Warsaw, Bydgoszcz, Poznan, Wroclaw, Katowice],
+    [Lodz, Warsaw, Gdansk, Bialystok, Rzeszow, Krakow, Katowice]
+  ]
+
+(Poznan,Katowice):
+  source: Poznan
+  destination: Katowice
+  routes: [
+    [Poznan, Bydgoszcz, Kolobrzeg, Gdansk, Bialystok, Rzeszow, Krakow, Katowice],
+    [Poznan, Bydgoszcz, Warsaw, Lodz, Katowice],
+    [Poznan, Bydgoszcz, Warsaw, Krakow, Katowice],
+    [Poznan, Bydgoszcz, Warsaw, Bialystok, Rzeszow, Krakow, Katowice],
+    [Poznan, Bydgoszcz, Warsaw, Gdansk, Bialystok, Rzeszow, Krakow, Katowice],
+    [Poznan, Szczecin, Kolobrzeg, Gdansk, Bialystok, Rzeszow, Krakow, Katowice],
+    [Poznan, Wroclaw, Lodz, Warsaw, Bydgoszcz, Kolobrzeg, Gdansk, Bialystok, Rzeszow, Krakow, Katowice]
+  ]
+
+(Rzeszow,Katowice):
+  source: Rzeszow
+  destination: Katowice
+  routes: [
+    [Rzeszow, Krakow, Katowice],
+    [Rzeszow, Krakow, Warsaw, Lodz, Katowice],
+    [Rzeszow, Bialystok, Warsaw, Krakow, Katowice],
+    [Rzeszow, Bialystok, Gdansk, Kolobrzeg, Bydgoszcz, Poznan, Wroclaw, Katowice],
+    [Rzeszow, Bialystok, Gdansk, Kolobrzeg, Bydgoszcz, Poznan, Wroclaw, Lodz, Katowice],
+    [Rzeszow, Bialystok, Warsaw, Lodz, Katowice],
+    [Rzeszow, Bialystok, Gdansk, Warsaw, Krakow, Katowice]
+  ]
+
+(Szczecin,Katowice):
+  source: Szczecin
+  destination: Katowice
+  routes: [
+    [Szczecin, Kolobrzeg, Gdansk, Bialystok, Rzeszow, Krakow, Katowice],
+    [Szczecin, Kolobrzeg, Gdansk, Warsaw, Lodz, Katowice],
+    [Szczecin, Kolobrzeg, Gdansk, Warsaw, Krakow, Katowice],
+    [Szczecin, Kolobrzeg, Gdansk, Warsaw, Bialystok, Rzeszow, Krakow, Katowice],
+    [Szczecin, Kolobrzeg, Bydgoszcz, Warsaw, Gdansk, Bialystok, Rzeszow, Krakow, Katowice],
+    [Szczecin, Poznan, Bydgoszcz, Kolobrzeg, Gdansk, Bialystok, Rzeszow, Krakow, Katowice],
+    [Szczecin, Poznan, Wroclaw, Katowice]
+  ]
+
+(Warsaw,Katowice):
+  source: Warsaw
+  destination: Katowice
+  routes: [
+    [Warsaw, Krakow, Katowice],
+    [Warsaw, Lodz, Katowice],
+    [Warsaw, Bialystok, Rzeszow, Krakow, Katowice],
+    [Warsaw, Lodz, Wroclaw, Katowice],
+    [Warsaw, Bydgoszcz, Poznan, Wroclaw, Lodz, Katowice],
+    [Warsaw, Gdansk, Bialystok, Rzeszow, Krakow, Katowice],
+    [Warsaw, Bydgoszcz, Poznan, Wroclaw, Katowice]
+  ]
+
+(Wroclaw,Katowice):
+  source: Wroclaw
+  destination: Katowice
+  routes: [
+    [Wroclaw, Katowice],
+    [Wroclaw, Lodz, Katowice],
+    [Wroclaw, Poznan, Bydgoszcz, Kolobrzeg, Gdansk, Bialystok, Rzeszow, Krakow, Katowice],
+    [Wroclaw, Poznan, Bydgoszcz, Warsaw, Lodz, Katowice],
+    [Wroclaw, Lodz, Warsaw, Krakow, Katowice],
+    [Wroclaw, Lodz, Warsaw, Bialystok, Rzeszow, Krakow, Katowice],
+    [Wroclaw, Lodz, Warsaw, Gdansk, Bialystok, Rzeszow, Krakow, Katowice]
+  ]
+
+(Bialystok,Krakow):
+  source: Bialystok
+  destination: Krakow
+  routes: [
+    [Bialystok, Rzeszow, Krakow],
+    [Bialystok, Warsaw, Krakow],
+    [Bialystok, Warsaw, Lodz, Katowice, Krakow],
+    [Bialystok, Gdansk, Warsaw, Krakow],
+    [Bialystok, Gdansk, Kolobrzeg, Bydgoszcz, Poznan, Wroclaw, Katowice, Krakow],
+    [Bialystok, Gdansk, Kolobrzeg, Bydgoszcz, Poznan, Wroclaw, Lodz, Katowice, Krakow],
+    [Bialystok, Gdansk, Warsaw, Lodz, Katowice, Krakow]
+  ]
+
+(Lodz,Krakow):
+  source: Lodz
+  destination: Krakow
+  routes: [
+    [Lodz, Katowice, Krakow],
+    [Lodz, Warsaw, Krakow],
+    [Lodz, Wroclaw, Katowice, Krakow],
+    [Lodz, Warsaw, Bialystok, Rzeszow, Krakow],
+    [Lodz, Wroclaw, Poznan, Bydgoszcz, Warsaw, Krakow],
+    [Lodz, Warsaw, Bydgoszcz, Poznan, Wroclaw, Katowice, Krakow],
+    [Lodz, Warsaw, Gdansk, Bialystok, Rzeszow, Krakow]
+  ]
+
+(Poznan,Krakow):
+  source: Poznan
+  destination: Krakow
+  routes: [
+    [Poznan, Bydgoszcz, Kolobrzeg, Gdansk, Bialystok, Rzeszow, Krakow],
+    [Poznan, Bydgoszcz, Warsaw, Krakow],
+    [Poznan, Bydgoszcz, Warsaw, Bialystok, Rzeszow, Krakow],
+    [Poznan, Bydgoszcz, Warsaw, Gdansk, Bialystok, Rzeszow, Krakow],
+    [Poznan, Szczecin, Kolobrzeg, Gdansk, Bialystok, Rzeszow, Krakow],
+    [Poznan, Wroclaw, Lodz, Warsaw, Bydgoszcz, Kolobrzeg, Gdansk, Bialystok, Rzeszow, Krakow],
+    [Poznan, Bydgoszcz, Warsaw, Lodz, Katowice, Krakow]
+  ]
+
+(Rzeszow,Krakow):
+  source: Rzeszow
+  destination: Krakow
+  routes: [
+    [Rzeszow, Krakow],
+    [Rzeszow, Bialystok, Warsaw, Krakow],
+    [Rzeszow, Bialystok, Warsaw, Lodz, Katowice, Krakow],
+    [Rzeszow, Bialystok, Gdansk, Warsaw, Krakow],
+    [Rzeszow, Bialystok, Gdansk, Kolobrzeg, Bydgoszcz, Poznan, Wroclaw, Katowice, Krakow],
+    [Rzeszow, Bialystok, Gdansk, Kolobrzeg, Bydgoszcz, Poznan, Wroclaw, Lodz, Katowice, Krakow],
+    [Rzeszow, Bialystok, Gdansk, Warsaw, Lodz, Katowice, Krakow]
+  ]
+
+(Szczecin,Krakow):
+  source: Szczecin
+  destination: Krakow
+  routes: [
+    [Szczecin, Kolobrzeg, Gdansk, Bialystok, Rzeszow, Krakow],
+    [Szczecin, Kolobrzeg, Gdansk, Warsaw, Krakow],
+    [Szczecin, Kolobrzeg, Gdansk, Warsaw, Bialystok, Rzeszow, Krakow],
+    [Szczecin, Kolobrzeg, Bydgoszcz, Warsaw, Gdansk, Bialystok, Rzeszow, Krakow],
+    [Szczecin, Poznan, Bydgoszcz, Kolobrzeg, Gdansk, Bialystok, Rzeszow, Krakow],
+    [Szczecin, Kolobrzeg, Gdansk, Warsaw, Lodz, Katowice, Krakow],
+    [Szczecin, Kolobrzeg, Bydgoszcz, Warsaw, Krakow]
+  ]
+
+(Warsaw,Krakow):
+  source: Warsaw
+  destination: Krakow
+  routes: [
+    [Warsaw, Krakow],
+    [Warsaw, Lodz, Katowice, Krakow],
+    [Warsaw, Bialystok, Rzeszow, Krakow],
+    [Warsaw, Lodz, Wroclaw, Katowice, Krakow],
+    [Warsaw, Bydgoszcz, Poznan, Wroclaw, Lodz, Katowice, Krakow],
+    [Warsaw, Gdansk, Bialystok, Rzeszow, Krakow],
+    [Warsaw, Bydgoszcz, Poznan, Wroclaw, Katowice, Krakow]
+  ]
+
+(Wroclaw,Krakow):
+  source: Wroclaw
+  destination: Krakow
+  routes: [
+    [Wroclaw, Katowice, Krakow],
+    [Wroclaw, Poznan, Szczecin, Kolobrzeg, Gdansk, Bialystok, Rzeszow, Krakow],
+    [Wroclaw, Lodz, Katowice, Krakow],
+    [Wroclaw, Lodz, Warsaw, Krakow],
+    [Wroclaw, Lodz, Warsaw, Bialystok, Rzeszow, Krakow],
+    [Wroclaw, Lodz, Warsaw, Gdansk, Bialystok, Rzeszow, Krakow],
+    [Wroclaw, Poznan, Szczecin, Kolobrzeg, Gdansk, Bialystok, Rzeszow, Krakow]
+  ]
+
+(Lodz,Bialystok):
+  source: Lodz
+  destination: Bialystok
+  routes: [
+    [Lodz, Katowice, Krakow, Rzeszow, Bialystok],
+    [Lodz, Warsaw, Bialystok],
+    [Lodz, Warsaw, Krakow, Rzeszow, Bialystok],
+    [Lodz, Wroclaw, Katowice, Krakow, Rzeszow, Bialystok],
+    [Lodz, Warsaw, Gdansk, Bialystok],
+    [Lodz, Katowice, Krakow, Warsaw, Bialystok],
+    [Lodz, Wroclaw, Poznan, Bydgoszcz, Warsaw, Krakow, Rzeszow, Bialystok]
+  ]
+
+(Poznan,Bialystok):
+  source: Poznan
+  destination: Bialystok
+  routes: [
+    [Poznan, Bydgoszcz, Kolobrzeg, Gdansk, Bialystok],
+    [Poznan, Bydgoszcz, Warsaw, Bialystok],
+    [Poznan, Bydgoszcz, Warsaw, Gdansk, Bialystok],
+    [Poznan, Szczecin, Kolobrzeg, Gdansk, Bialystok],
+    [Poznan, Wroclaw, Katowice, Krakow, Warsaw, Bydgoszcz, Kolobrzeg, Gdansk, Bialystok],
+    [Poznan, Bydgoszcz, Warsaw, Krakow, Rzeszow, Bialystok],
+    [Poznan, Bydgoszcz, Kolobrzeg, Gdansk, Warsaw, Bialystok]
+  ]
+
+(Rzeszow,Bialystok):
+  source: Rzeszow
+  destination: Bialystok
+  routes: [
+    [Rzeszow, Bialystok],
+    [Rzeszow, Krakow, Warsaw, Bialystok],
+    [Rzeszow, Krakow, Warsaw, Gdansk, Bialystok],
+    [Rzeszow, Krakow, Katowice, Lodz, Warsaw, Bialystok],
+    [Rzeszow, Krakow, Warsaw, Bydgoszcz, Kolobrzeg, Gdansk, Bialystok],
+    [Rzeszow, Krakow, Katowice, Lodz, Warsaw, Gdansk, Bialystok],
+    [Rzeszow, Krakow, Katowice, Wroclaw, Poznan, Bydgoszcz, Warsaw, Bialystok]
+  ]
+
+(Szczecin,Bialystok):
+  source: Szczecin
+  destination: Bialystok
+  routes: [
+    [Szczecin, Kolobrzeg, Gdansk, Bialystok],
+    [Szczecin, Kolobrzeg, Gdansk, Warsaw, Bialystok],
+    [Szczecin, Kolobrzeg, Bydgoszcz, Warsaw, Gdansk, Bialystok],
+    [Szczecin, Poznan, Bydgoszcz, Kolobrzeg, Gdansk, Bialystok],
+    [Szczecin, Kolobrzeg, Gdansk, Warsaw, Krakow, Rzeszow, Bialystok],
+    [Szczecin, Kolobrzeg, Bydgoszcz, Warsaw, Bialystok],
+    [Szczecin, Poznan, Bydgoszcz, Kolobrzeg, Gdansk, Warsaw, Bialystok]
+  ]
+
+(Warsaw,Bialystok):
+  source: Warsaw
+  destination: Bialystok
+  routes: [
+    [Warsaw, Bialystok],
+    [Warsaw, Gdansk, Bialystok],
+    [Warsaw, Krakow, Rzeszow, Bialystok],
+    [Warsaw, Bydgoszcz, Kolobrzeg, Gdansk, Bialystok],
+    [Warsaw, Lodz, Katowice, Krakow, Rzeszow, Bialystok],
+    [Warsaw, Bydgoszcz, Poznan, Szczecin, Kolobrzeg, Gdansk, Bialystok],
+    [Warsaw, Krakow, Katowice, Wroclaw, Poznan, Bydgoszcz, Kolobrzeg, Gdansk, Bialystok]
+  ]
+
+(Wroclaw, Bialystok):
+  source: Wroclaw
+  destination: Bialystok
+  routes: [
+    [Wroclaw, Poznan, Bydgoszcz, Kolobrzeg, Gdansk, Bialystok],
+    [Wroclaw, Katowice, Krakow, Rzeszow, Bialystok],
+    [Wroclaw, Katowice, Krakow, Warsaw, Gdansk, Bialystok],
+    [Wroclaw, Poznan, Szczecin, Kolobrzeg, Gdansk, Bialystok],
+    [Wroclaw, Katowice, Krakow, Warsaw, Bydgoszcz, Kolobrzeg, Gdansk, Bialystok],
+    [Wroclaw, Katowice, Krakow, Warsaw, Bialystok],
+    [Wroclaw, Lodz, Warsaw, Krakow, Rzeszow, Bialystok]
+  ]
+
+(Poznan, Lodz):
+  source: Poznan
+  destination: Lodz
+  routes: [
+    [Poznan, Bydgoszcz, Kolobrzeg, Gdansk, Bialystok, Rzeszow, Krakow, Katowice, Lodz],
+    [Poznan, Bydgoszcz, Warsaw, Lodz],
+    [Poznan, Wroclaw, Katowice, Lodz],
+    [Poznan, Bydgoszcz, Warsaw, Krakow, Katowice, Lodz],
+    [Poznan, Bydgoszcz, Warsaw, Bialystok, Rzeszow, Krakow, Katowice, Lodz],
+    [Poznan, Bydgoszcz, Warsaw, Gdansk, Bialystok, Rzeszow, Krakow, Katowice, Lodz],
+    [Poznan, Szczecin, Kolobrzeg, Gdansk, Bialystok, Rzeszow, Krakow, Katowice, Lodz]
+  ]
+
+(Rzeszow, Lodz):
+  source: Rzeszow
+  destination: Lodz
+  routes: [
+    [Rzeszow, Krakow, Katowice, Lodz],
+    [Rzeszow, Krakow, Warsaw, Lodz],
+    [Rzeszow, Bialystok, Gdansk, Kolobrzeg, Bydgoszcz, Poznan, Wroclaw, Katowice, Lodz],
+    [Rzeszow, Bialystok, Warsaw, Krakow, Katowice, Lodz],
+    [Rzeszow, Krakow, Katowice, Wroclaw, Lodz],
+    [Rzeszow, Bialystok, Warsaw, Lodz],
+    [Rzeszow, Bialystok, Gdansk, Kolobrzeg, Bydgoszcz, Poznan, Wroclaw, Katowice, Krakow, Warsaw, Lodz]
+  ]
+
+(Szczecin, Lodz):
+  source: Szczecin
+  destination: Lodz
+  routes: [
+    [Szczecin, Kolobrzeg, Gdansk, Bialystok, Rzeszow, Krakow, Katowice, Lodz],
+    [Szczecin, Kolobrzeg, Gdansk, Warsaw, Lodz],
+    [Szczecin, Poznan, Wroclaw, Katowice, Lodz],
+    [Szczecin, Kolobrzeg, Gdansk, Warsaw, Krakow, Katowice, Lodz],
+    [Szczecin, Kolobrzeg, Gdansk, Warsaw, Bialystok, Rzeszow, Krakow, Katowice, Lodz],
+    [Szczecin, Kolobrzeg, Bydgoszcz, Warsaw, Gdansk, Bialystok, Rzeszow, Krakow, Katowice, Lodz],
+    [Szczecin, Poznan, Bydgoszcz, Kolobrzeg, Gdansk, Bialystok, Rzeszow, Krakow, Katowice, Lodz]
+  ]
+
+(Warsaw, Lodz):
+  source: Warsaw
+  destination: Lodz
+  routes: [
+    [Warsaw, Lodz],
+    [Warsaw, Krakow, Katowice, Lodz],
+    [Warsaw, Krakow, Katowice, Wroclaw, Lodz],
+    [Warsaw, Bydgoszcz, Poznan, Wroclaw, Katowice, Lodz],
+    [Warsaw, Bialystok, Rzeszow, Krakow, Katowice, Lodz],
+    [Warsaw, Bydgoszcz, Poznan, Wroclaw, Lodz],
+    [Warsaw, Bialystok, Rzeszow, Krakow, Katowice, Wroclaw, Lodz]
+  ]
+
+(Wroclaw, Lodz):
+  source: Wroclaw
+  destination: Lodz
+  routes: [
+    [Wroclaw, Lodz],
+    [Wroclaw, Katowice, Lodz],
+    [Wroclaw, Katowice, Krakow, Warsaw, Lodz],
+    [Wroclaw, Poznan, Bydgoszcz, Kolobrzeg, Gdansk, Bialystok, Rzeszow, Krakow, Katowice, Lodz],
+    [Wroclaw, Poznan, Bydgoszcz, Warsaw, Lodz],
+    [Wroclaw, Poznan, Bydgoszcz, Kolobrzeg, Gdansk, Bialystok, Rzeszow, Krakow, Warsaw, Lodz],
+    [Wroclaw, Poznan, Bydgoszcz, Warsaw, Krakow, Katowice, Lodz]
+  ]
+
+(Rzeszow, Poznan):
+  source: Rzeszow
+  destination: Poznan
+  routes: [
+    [Rzeszow, Bialystok, Gdansk, Kolobrzeg, Bydgoszcz, Poznan],
+    [Rzeszow, Bialystok, Gdansk, Kolobrzeg, Szczecin, Poznan],
+    [Rzeszow, Krakow, Warsaw, Bydgoszcz, Poznan],
+    [Rzeszow, Krakow, Warsaw, Gdansk, Kolobrzeg, Bydgoszcz, Poznan],
+    [Rzeszow, Krakow, Warsaw, Bialystok, Gdansk, Kolobrzeg, Bydgoszcz, Poznan],
+    [Rzeszow, Krakow, Katowice, Wroclaw, Poznan],
+    [Rzeszow, Krakow, Warsaw, Bydgoszcz, Kolobrzeg, Szczecin, Poznan]
+  ]
+
+(Szczecin, Poznan):
+  source: Szczecin
+  destination: Poznan
+  routes: [
+    [Szczecin, Poznan],
+    [Szczecin, Kolobrzeg, Bydgoszcz, Poznan],
+    [Szczecin, Kolobrzeg, Gdansk, Bialystok, Rzeszow, Krakow, Katowice, Wroclaw, Poznan],
+    [Szczecin, Kolobrzeg, Gdansk, Warsaw, Bydgoszcz, Poznan],
+    [Szczecin, Kolobrzeg, Gdansk, Bialystok, Rzeszow, Krakow, Katowice, Lodz, Wroclaw, Poznan],
+    [Szczecin, Kolobrzeg, Gdansk, Warsaw, Lodz, Katowice, Wroclaw, Poznan],
+    [Szczecin, Kolobrzeg, Gdansk, Warsaw, Krakow, Katowice, Wroclaw, Poznan]
+  ]
+
+(Warsaw, Poznan):
+  source: Warsaw
+  destination: Poznan
+  routes: [
+    [Warsaw, Bydgoszcz, Poznan],
+    [Warsaw, Gdansk, Kolobrzeg, Szczecin, Poznan],
+    [Warsaw, Gdansk, Kolobrzeg, Bydgoszcz, Poznan],
+    [Warsaw, Krakow, Katowice, Wroclaw, Poznan],
+    [Warsaw, Bydgoszcz, Kolobrzeg, Szczecin, Poznan],
+    [Warsaw, Bialystok, Gdansk, Kolobrzeg, Szczecin, Poznan],
+    [Warsaw, Bialystok, Gdansk, Kolobrzeg, Bydgoszcz, Poznan]
+  ]
+
+(Wroclaw, Poznan):
+  source: Wroclaw
+  destination: Poznan
+  routes: [
+    [Wroclaw, Poznan],
+    [Wroclaw, Katowice, Krakow, Rzeszow, Bialystok, Gdansk, Kolobrzeg, Bydgoszcz, Poznan],
+    [Wroclaw, Katowice, Krakow, Rzeszow, Bialystok, Gdansk, Kolobrzeg, Szczecin, Poznan],
+    [Wroclaw, Katowice, Krakow, Warsaw, Bydgoszcz, Poznan],
+    [Wroclaw, Katowice, Krakow, Warsaw, Gdansk, Kolobrzeg, Bydgoszcz, Poznan],
+    [Wroclaw, Katowice, Krakow, Warsaw, Bialystok, Gdansk, Kolobrzeg, Bydgoszcz, Poznan],
+    [Wroclaw, Lodz, Warsaw, Krakow, Rzeszow, Bialystok, Gdansk, Kolobrzeg, Bydgoszcz, Poznan]
+  ]
+
+(Szczecin,Rzeszow):
+  source: Szczecin
+  destination: Rzeszow
+  routes: [
+    [Szczecin, Kolobrzeg, Gdansk, Bialystok, Rzeszow],
+    [Szczecin, Kolobrzeg, Gdansk, Warsaw, Krakow, Rzeszow],
+    [Szczecin, Kolobrzeg, Gdansk, Warsaw, Bialystok, Rzeszow],
+    [Szczecin, Kolobrzeg, Bydgoszcz, Warsaw, Gdansk, Bialystok, Rzeszow],
+    [Szczecin, Poznan, Bydgoszcz, Kolobrzeg, Gdansk, Bialystok, Rzeszow],
+    [Szczecin, Kolobrzeg, Gdansk, Warsaw, Lodz, Katowice, Krakow, Rzeszow],
+    [Szczecin, Kolobrzeg, Bydgoszcz, Warsaw, Krakow, Rzeszow]
+  ]
+
+(Warsaw,Rzeszow):
+  source: Warsaw
+  destination: Rzeszow
+  routes: [
+    [Warsaw, Krakow, Rzeszow],
+    [Warsaw, Bialystok, Rzeszow],
+    [Warsaw, Lodz, Katowice, Krakow, Rzeszow],
+    [Warsaw, Gdansk, Bialystok, Rzeszow],
+    [Warsaw, Lodz, Wroclaw, Katowice, Krakow, Rzeszow],
+    [Warsaw, Bydgoszcz, Poznan, Wroclaw, Lodz, Katowice, Krakow, Rzeszow],
+    [Warsaw, Bydgoszcz, Kolobrzeg, Gdansk, Bialystok, Rzeszow]
+  ]
+
+(Wroclaw,Rzeszow):
+  source: Wroclaw
+  destination: Rzeszow
+  routes: [
+    [Wroclaw, Katowice, Krakow, Rzeszow],
+    [Wroclaw, Poznan, Bydgoszcz, Kolobrzeg, Gdansk, Bialystok, Rzeszow],
+    [Wroclaw, Lodz, Warsaw, Krakow, Rzeszow],
+    [Wroclaw, Lodz, Katowice, Krakow, Rzeszow],
+    [Wroclaw, Katowice, Krakow, Warsaw, Bialystok, Rzeszow],
+    [Wroclaw, Katowice, Krakow, Warsaw, Gdansk, Bialystok, Rzeszow],
+    [Wroclaw, Poznan, Szczecin, Kolobrzeg, Gdansk, Bialystok, Rzeszow]
+  ]
+
+(Warsaw, Szczecin):
+  source: Warsaw
+  destination: Szczecin
+  routes: [
+    [Warsaw, Gdansk, Kolobrzeg, Szczecin],
+    [Warsaw, Bydgoszcz, Poznan, Szczecin],
+    [Warsaw, Bydgoszcz, Kolobrzeg, Szczecin],
+    [Warsaw, Bialystok, Gdansk, Kolobrzeg, Szczecin],
+    [Warsaw, Krakow, Katowice, Wroclaw, Poznan, Szczecin],
+    [Warsaw, Gdansk, Kolobrzeg, Bydgoszcz, Poznan, Szczecin],
+    [Warsaw, Krakow, Katowice, Wroclaw, Poznan, Bydgoszcz, Kolobrzeg, Szczecin]
+  ]
+
+(Wroclaw, Szczecin):
+  source: Wroclaw
+  destination: Szczecin
+  routes: [
+    [Wroclaw, Poznan, Szczecin],
+    [Wroclaw, Poznan, Bydgoszcz, Kolobrzeg, Szczecin],
+    [Wroclaw, Katowice, Krakow, Rzeszow, Bialystok, Gdansk, Kolobrzeg, Bydgoszcz, Poznan, Szczecin],
+    [Wroclaw, Katowice, Krakow, Rzeszow, Bialystok, Gdansk, Kolobrzeg, Szczecin],
+    [Wroclaw, Katowice, Krakow, Warsaw, Bydgoszcz, Kolobrzeg, Szczecin],
+    [Wroclaw, Katowice, Krakow, Warsaw, Bydgoszcz, Poznan, Szczecin],
+    [Wroclaw, Katowice, Krakow, Warsaw, Gdansk, Kolobrzeg, Bydgoszcz, Poznan, Szczecin]
+  ]
+
+(Wroclaw, Warsaw):
+  source: Wroclaw
+  destination: Warsaw
+  routes: [
+    [Wroclaw, Katowice, Krakow, Warsaw],
+    [Wroclaw, Lodz, Warsaw],
+    [Wroclaw, Poznan, Bydgoszcz, Kolobrzeg, Gdansk, Bialystok, Rzeszow, Krakow, Warsaw],
+    [Wroclaw, Lodz, Katowice, Krakow, Warsaw],
+    [Wroclaw, Poznan, Bydgoszcz, Warsaw],
+    [Wroclaw, Katowice, Lodz, Warsaw],
+    [Wroclaw, Poznan, Szczecin, Kolobrzeg, Gdansk, Bialystok, Rzeszow, Krakow, Warsaw]
+  ]
+  
